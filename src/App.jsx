@@ -1,21 +1,28 @@
+import React from "react";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import "./App.css";
-import Featured from "./Featured";
-import FirstSec from "./FirstSec";
+import Home from "./Home";
+import Nav from "./Nav";
 import Footer from "./Footer";
-import Header from "./Header";
-import SecSect from "./SecSect";
-import Testimonial from "./Testimonial";
+import Shop from "./Shop";
+import Contact from "./Contact";
+import About from "./About";
+import ShopHeader from "./ShopHeader";
 
 function App() {
   return (
-    <div className="">
-      <Header />
-      <FirstSec />
-      <SecSect />
-      <Featured />
-      <Testimonial />
-      <Footer />
-    </div>
+    <Router>
+      <div className="">
+        <Nav />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/shop" element={<ShopHeader />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

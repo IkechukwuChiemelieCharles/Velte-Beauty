@@ -1,11 +1,9 @@
 import React from "react";
-import Nav from "./Nav";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <header className="w-full relative flex flex-col justify-center items-center overflow-hidden">
-      <Nav />
-
       <img
         src="./scandinavian-interior-mockup-wall-decal-background 1.jpg"
         alt=""
@@ -18,9 +16,13 @@ const Header = () => {
         <p className="text-center font-bold text-gray-600 mt-10 w-80 4">
           Luxury Skincare Inspired by Nature, Perfected by Science
         </p>
-        <button className="py-2 px-5 text-sm font-bold  text-white bg-Green rounded-sm drop-shadow-lg mt-10">
+
+        <Link
+          className="py-2 px-5 text-sm font-bold  text-white bg-Green rounded-sm drop-shadow-lg mt-10"
+          to="/Shop"
+        >
           BUY Now
-        </button>
+        </Link>
       </div>
     </header>
   );

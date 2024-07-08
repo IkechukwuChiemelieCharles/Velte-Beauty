@@ -10,12 +10,16 @@ export default {
         LightGrey: "rgba(236, 240, 241, 1)",
         milk: "rgba(252, 248, 243, 1)",
         Greydarker: "rgba(44, 62, 80, 1)",
-        // Greydarker: "hsl(187, 24%, 22%)",
+        overlay: "rgba(58, 58, 58, 1)",
+        tomato: "rgba(233, 113, 113, 1)",
+        lightPink: " rgba(250, 243, 234, 1)",
       },
       spacing: {
         128: "32rem",
         120: "26rem",
         140: "42rem",
+        130: "37rem",
+        128: "36rem",
       },
       fontFamily: {
         Karla: ["Karla", "sans-serif"],

@@ -1,48 +1,59 @@
 import React from "react";
 import Products from "./Products";
+import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const SecSect = () => {
-  const products = [
+  const [products, setProducts] = useState([
     {
       id: 1,
       imageurl: "/Images.png",
       name: "Face Foam Wash",
       detail: "Face & Lip",
-      price: "$10",
-      dashprice: "$3,500",
+      price: "₦2,800",
+      dashprice: "₦3,500",
       btn: "-30%",
+      redButton: true,
+      greenButton: false,
     },
     {
       id: 1,
       imageurl: "image 1-1.png",
       name: " Face Moisturizer",
       detail: "Face & Lip",
-      price: "$10",
+      price: "₦1,000",
       btn: "-30%",
+      redButton: true,
+      greenButton: false,
     },
     {
       id: 1,
       imageurl: "./image 1.png",
       name: "Aryuvedic Hair Butter",
       detail: "Hair Care",
-      price: "$20,000",
-      dashprice: "$25,000",
+      price: "₦20,000",
+      dashprice: "₦25,000",
       btn: "-50%",
+      redButton: true,
+      greenButton: false,
     },
     {
       id: 1,
       imageurl: "./image 1(1).png",
       name: "Body Scrub",
       detail: "Bath & Body",
-      price: "$4,000",
-      btn: "-50%",
+      price: "₦4,000",
+      redButton: true,
+      greenButton: false,
     },
     {
       id: 1,
       imageurl: "./Images(1).png",
       name: "Body Wash",
       detail: "Bath & Body",
-      price: "$3,500",
+      price: "₦3,500",
+      redButton: false,
+      greenButton: false,
     },
     {
       id: 1,
@@ -50,17 +61,19 @@ const SecSect = () => {
       name: "Face Serum",
       detail: "Face & Lip Care",
 
-      price: "$3,500",
-      greenbtn: "New",
+      price: "₦3,500",
+      redButton: true,
+      greenButton: false,
     },
     {
       id: 1,
       imageurl: "./Images.png",
       name: "Facial Mist",
       detail: "Face & Lip Care",
-      price: "$10",
-      dashprice: "$4,000",
-      btn: "-50%",
+      price: "₦4,500",
+      dashprice: "₦4,000",
+      redButton: false,
+      greenButton: true,
     },
     {
       id: 1,
@@ -68,10 +81,11 @@ const SecSect = () => {
       name: "Hair Conditioner",
       detail: "Hair Care",
 
-      price: "$5,00",
-      greenbtn: "New",
+      price: "₦5,000",
+      redButton: true,
+      greenButton: false,
     },
-  ];
+  ]);
 
   return (
     <div className="mt-20 flex flex-col justify-center items-center ">
@@ -85,14 +99,18 @@ const SecSect = () => {
             detail={product.detail}
             price={product.price}
             dashprice={product.dashprice}
-            btn={product.btn}
-            greenbtn={product.greenbtn}
+            greenButton={product.greenButton}
+            redButton={product.redButton}
           />
         ))}
       </div>
-      <button className="border-2 border-primaryBlue border-solid px-16 py-2 my-10">
-        Show More
-      </button>
+
+      <Link
+        className="border-2 border-primaryBlue border-solid px-16 py-2 my-10"
+        to="/Shop"
+      >
+        Shop
+      </Link>
     </div>
   );
 };

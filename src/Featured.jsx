@@ -6,7 +6,7 @@ const Featured = () => {
       <div className="flex flex-col gap-5 justify-center items-center w-40 mb-10">
         <h1 className="text-2xl font-bold text-nowrap">Featured Product</h1>
         <p className="text-xs">Our Top Pick for you</p>
-        <button className="bg-primaryBlue text-white font-bold p-3 md:self-start">
+        <button className="bg-primaryBlue text-white font-bold p-3 md:self-start -mb-5">
           Add To Cart
         </button>
       </div>
