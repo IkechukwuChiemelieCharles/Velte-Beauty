@@ -15,6 +15,7 @@ const SecSect = () => {
       btn: "-30%",
       redButton: true,
       greenButton: false,
+      addCart: "Add To Cart",
     },
     {
       id: 1,
@@ -25,6 +26,7 @@ const SecSect = () => {
       btn: "-30%",
       redButton: true,
       greenButton: false,
+      addCart: "Add To Cart",
     },
     {
       id: 1,
@@ -36,6 +38,7 @@ const SecSect = () => {
       btn: "-50%",
       redButton: true,
       greenButton: false,
+      addCart: "Add To Cart",
     },
     {
       id: 1,
@@ -45,6 +48,7 @@ const SecSect = () => {
       price: "₦4,000",
       redButton: true,
       greenButton: false,
+      addCart: "Add To Cart",
     },
     {
       id: 1,
@@ -54,6 +58,7 @@ const SecSect = () => {
       price: "₦3,500",
       redButton: false,
       greenButton: false,
+      addCart: "Add To Cart",
     },
     {
       id: 1,
@@ -64,6 +69,7 @@ const SecSect = () => {
       price: "₦3,500",
       redButton: true,
       greenButton: false,
+      addCart: "Add To Cart",
     },
     {
       id: 1,
@@ -74,6 +80,7 @@ const SecSect = () => {
       dashprice: "₦4,000",
       redButton: false,
       greenButton: true,
+      addCart: "Add To Cart",
     },
     {
       id: 1,
@@ -84,6 +91,7 @@ const SecSect = () => {
       price: "₦5,000",
       redButton: true,
       greenButton: false,
+      addCart: "Add To Cart",
     },
   ]);
 
@@ -101,6 +109,7 @@ const SecSect = () => {
             dashprice={product.dashprice}
             greenButton={product.greenButton}
             redButton={product.redButton}
+            addCart={product.addCart}
           />
         ))}
       </div>

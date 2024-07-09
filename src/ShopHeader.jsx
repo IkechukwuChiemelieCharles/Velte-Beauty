@@ -1,5 +1,7 @@
 import React from "react";
 import ShopProduct from "./ShopProduct";
+import ShopSecProduct from "./ShopSecProdcut";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 const ShopHeader = () => {
   return (
@@ -9,7 +11,7 @@ const ShopHeader = () => {
           <img className="w-full" src="./IMG1/Rectangle 1.png" alt="" />
           <div className="  md:top-32 md:left-128 flex justify-center items-center gap-2 text-Greydarker flex-col -mt-16 md:-mt-32 mb-16 ">
             <h1 className="text-md  top-5 left-32 md:top-20 md:left-130 md:text-2xl font-bold text-Greydarker">
-              Contact
+              Shop
             </h1>
 
             <div className="  md:top-32 md:left-128 flex justify-center items-center gap-2 text-Greydarker">
@@ -19,7 +21,7 @@ const ShopHeader = () => {
                 src="./icons/Vector(2).png"
                 alt=""
               />
-              <p className="text-xs md:text-sm">Contact</p>
+              <p className="text-xs md:text-sm">Shop</p>
             </div>
           </div>
           <div className="bg-Greydarker flex items-center justify-between px-10 py-5">
@@ -47,6 +49,9 @@ const ShopHeader = () => {
         </div>
       </header>
       <ShopProduct />
+      <Routes>
+        <Route path="/ShopSecProduct" element={<ShopSecProduct />} />
+      </Routes>
     </div>
   );
 };

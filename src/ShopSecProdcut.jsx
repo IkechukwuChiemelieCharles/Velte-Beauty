@@ -1,9 +1,8 @@
 import React from "react";
 import { useState } from "react";
-import ShopSecProduct from "./ShopSecProdcut";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
-const ShopProduct = () => {
+const ShopSecProduct = () => {
   return (
     <div>
       <main className="flex flex-wrap gap-20 p-5">
@@ -351,17 +350,15 @@ const ShopProduct = () => {
       </main>
       <div className="flex justify-center items-center gap-10 mt-10">
         <Link
-          className="bg-primaryBlue w-14 h-14 rounded-lg text-white flex justify-center items-center"
+          className="bg-primaryBlue w-14 h-14 rounded-lg text-white"
           to="/ShopProduct"
         >
           1
         </Link>
-        <Link
-          className="bg-gray-500 text-black w-14 h-14 rounded-lg  flex justify-center items-center"
-          to="/ShopSecProduct"
-        >
+
+        <button className="bg-gray-500 text-black w-14 h-14 rounded-lg">
           2
-        </Link>
+        </button>
       </div>
       <article className="bg-lightPink flex justify-between px-10 py-20 mt-20 flex-col md:flex-row flex-wrap">
         <div className="flex flex-col md:flex-row md:justify-start justify-center items-center gap-2 text-sm text-Greydarker">
@@ -403,4 +400,4 @@ const ShopProduct = () => {
   );
 };
 
-export default ShopProduct;
+export default ShopSecProduct;

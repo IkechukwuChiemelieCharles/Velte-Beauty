@@ -18,7 +18,7 @@ const Featured = () => {
         </p>
         <p
           className="
-        bg-red-600 top-3 text-white right-3 rounded-full absolute px-1 py-2 "
+        bg-tomato top-3 text-white right-3 rounded-full absolute px-1 py-2 "
         >
           50%
         </p>

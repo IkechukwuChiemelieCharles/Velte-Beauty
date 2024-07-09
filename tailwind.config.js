@@ -12,7 +12,8 @@ export default {
         Greydarker: "rgba(44, 62, 80, 1)",
         overlay: "rgba(58, 58, 58, 1)",
         tomato: "rgba(233, 113, 113, 1)",
-        lightPink: " rgba(250, 243, 234, 1)",
+        lightPink: "rgba(250, 243, 234, 1)",
+        lightBlue: "rgba(52, 152, 219, 0.25)",
       },
       spacing: {
         128: "32rem",

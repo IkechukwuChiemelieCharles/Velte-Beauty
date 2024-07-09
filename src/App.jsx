@@ -8,6 +8,9 @@ import Shop from "./Shop";
 import Contact from "./Contact";
 import About from "./About";
 import ShopHeader from "./ShopHeader";
+import ShopProduct from "./ShopProduct";
+import ShopSecProduct from "./ShopSecProdcut";
+import Cart from "./Cart";
 
 function App() {
   return (
@@ -19,6 +22,9 @@ function App() {
           <Route path="/shop" element={<ShopHeader />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/ShopProduct" element={<Shop />} />
+          <Route path="/ShopSecProduct" element={<Shop />} />
+          <Route path="/Cart" element={<Cart />} />
         </Routes>
         <Footer />
       </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Products = ({
   imageurl,
@@ -10,6 +11,7 @@ const Products = ({
   btn,
   greenButton,
   redButton,
+  addCart,
 }) => {
   const [isHovered, setIsHovered] = useState(false);
 
@@ -23,7 +25,7 @@ const Products = ({
   return (
     <div>
       <div
-        className="bg-LightGrey relative pb-5 drop-shadow-xl "
+        className="bg-LightGrey relative pb-5 drop-shadow-xl h-96"
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
       >
@@ -31,12 +33,10 @@ const Products = ({
         <div className="ml-5">
           <h2 className="font-bold  mt-2">{name}</h2>
           <p className="font-light text-sm  mt-2">{detail}</p>
-          <div className="flex items-center gap-2">
-            <p className="font-bold text-sm  mt-2">{price}</p>
-            <p className=" text-sm  mt-2 text-gray-500 line-through">
-              {dashprice}
-            </p>
-          </div>
+          <p className="font-bold text-sm  mt-2">{price}</p>
+          <p className=" text-sm  mt-2 text-gray-500 line-through">
+            {dashprice}
+          </p>
         </div>
         {/* <p className="absolute rounded-full px-1 py-2 bg-green-600 top-3 text-white right-6">
           {greenbtn}
@@ -64,6 +64,13 @@ const Products = ({
             </button>
           </div>
         )}
+
+        <Link
+          className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold"
+          to="/Cart"
+        >
+          {addCart}
+        </Link>
       </div>
     </div>
   );
