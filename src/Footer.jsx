@@ -59,7 +59,7 @@ const Footer = () => {
         <img src="./prodimg2/Vector.png" alt="" />
         <img src="./prodimg2/Vector-1.png" alt="" />
       </div>
-      <hr className="w-140 border-2 border-solid border-white self-center mt-5 mb-5" />
+      <hr className="w-40 md:w-140 border-2 border-solid border-white self-center mt-5 mb-5" />
       <p className=" text-white">2024 Velte Beauty. All rights reserved</p>
     </footer>
   );

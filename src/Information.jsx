@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Information = () => {
   return (
-    <div className="overflow-hidden bg-milk">
+    <div className="overflow-hidden bg-milk w-full">
       <div>
         <img className="w-full" src="./IMG1/Rectangle 1.png" alt="" />
         <div className="  lg:top-32 lg:left-128 flex justify-center items-center gap-2 text-Greydarker flex-col -mt-16 lg:-mt-32 mb-16 ">

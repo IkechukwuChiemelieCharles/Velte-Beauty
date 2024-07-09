@@ -2,7 +2,7 @@ import React from "react";
 
 const Success = () => {
   return (
-    <div className="bg-milk px-10 py-20">
+    <div className="bg-milk px-10 py-20 w-full overflow-hidden">
       <div className="bg-white flex flex-col px-10 py-10  w-full gap-2 relative">
         <h1 className="text-primaryBlue text-xl font-bold">
           Thank You For Your Order
