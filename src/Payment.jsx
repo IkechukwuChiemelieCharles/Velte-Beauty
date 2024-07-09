@@ -5,9 +5,13 @@ const Payment = () => {
   return (
     <div className="overflow-hidden bg-milk md:py-142">
       <div className="flex md:gap-5 gap-2  items-center p-5 bg-lightPink flex-wrap md:absolute md:top-12 md:left-0 md:w-full">
-        <p className="text-xs md:text-sm text-Greydarker">Cart</p>
+        <Link className="text-xs lg:text-sm text-Greydarker " to="/cart">
+          Cart
+        </Link>
         <img className="w-2 h-2  " src="./icons/Vector(2).png" alt="" />
-        <p className="text-xs md:text-sm text-Greydarker ">Information</p>
+        <Link className="text-xs lg:text-sm text-Greydarker " to="/information">
+          Information
+        </Link>
         <img className="w-2 h-2  " src="./icons/Vector(2).png" alt="" />
 
         <p className="text-xs md:text-sm font-bold text-primaryBlue">

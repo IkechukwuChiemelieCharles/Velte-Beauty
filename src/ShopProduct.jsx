@@ -5,348 +5,325 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 const ShopProduct = () => {
   return (
-    <div>
-      <main className="flex flex-wrap gap-20 p-5">
+    <div className="">
+      <main className="flex flex-wrap gap-20 p-5 justify-center items-center">
         <div className="bg-LightGrey relative pb-5 drop-shadow-xl ">
           <img className="w-60" src="/Images.png" alt="" />
           <div className="ml-5">
             <h2 className="font-bold  mt-2">Face Foam Wash</h2>
             <p className="font-light text-sm  mt-2">Face & Lip</p>
 
-            <p className="font-bold text-sm  mt-2">₦2,800</p>
+            <p className="font-bold text-sm  mt-2">₦2,450</p>
             <p className=" text-sm  mt-2 text-gray-500 line-through">₦3,500</p>
           </div>
-          <p className=" absolute rounded-full px-2 py-3 bg-tomato top-3 text-white left-44">
+          <p className=" absolute rounded-full px-2 py-4 bg-tomato top-3 text-white left-44">
             -50%
           </p>
 
-          {/* <p className=" absolute rounded-full px-2 py-3 bg-green-400 top-3 text-white right-3">
-          New
-        </p> */}
-          <div className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold">
+          <Link
+            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer"
+            to="/Cart"
+          >
             Add To Cart
-          </div>
-          <div className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold">
-            Add To Cart
-          </div>
+          </Link>
         </div>
         {/* second////////////////////////////////// */}
-
         <div className="bg-LightGrey relative pb-5 drop-shadow-xl ">
           <img className="w-60" src="image 1-1.png" alt="" />
           <div className="ml-5">
             <h2 className="font-bold  mt-2"> Face Moisturizer</h2>
             <p className="font-light text-sm  mt-2">Face & Lip</p>
 
-            <p className="font-bold text-sm  mt-2">₦1,000</p>
-            <p className=" text-sm  mt-2 text-gray-500 line-through">₦3,500</p>
+            <p className="font-bold text-sm  mt-2">₦5,000</p>
           </div>
-          <p className=" absolute rounded-full px-1 py-3 bg-tomato top-3 text-white left-44">
-            -30%
-          </p>
-          {/* <p className=" absolute rounded-full px-2 py-3 bg-green-400 top-3 text-white right-3">
-          New
-        </p> */}
-          <div className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold">
+
+          <Link
+            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer"
+            to="/Cart"
+          >
             Add To Cart
-          </div>
+          </Link>
         </div>
         {/* third///////////////////////////////////// */}
-
         <div className="bg-LightGrey relative pb-5 drop-shadow-xl ">
           <img className="w-60" src="./image 1.png" alt="" />
           <div className="ml-5">
             <h2 className="font-bold  mt-2"> Aryuvedic Hair Butter</h2>
             <p className="font-light text-sm  mt-2">Hair Care</p>
 
-            <p className="font-bold text-sm  mt-2">₦20,000</p>
-            <p className=" text-sm  mt-2 text-gray-500 line-through">₦25,000</p>
+            <p className="font-bold text-sm  mt-2">₦10,000</p>
+            <p className=" text-sm  mt-2 text-gray-500 line-through">₦20,000</p>
           </div>
-          <p className=" absolute rounded-full px-1 py-3 bg-tomato top-3 text-white left-44">
+          <p className=" absolute rounded-full px-2 py-4 bg-tomato top-3 text-white left-44">
+            -50%
+          </p>
+
+          <Link
+            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer"
+            to="/Cart"
+          >
+            Add To Cart
+          </Link>
+        </div>
+        {/* fourth/////////////////////////////// */}
+        <div className="bg-LightGrey relative pb-5 drop-shadow-xl ">
+          <img className="w-60" src="/image 1(1).png" alt="" />
+          <div className="ml-5">
+            <h2 className="font-bold  mt-2">Body Scrub</h2>
+            <p className="font-light text-sm  mt-2">Bath & Body</p>
+
+            <p className="font-bold text-sm  mt-2">₦4,000</p>
+          </div>
+
+          <Link
+            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer"
+            to="/Cart"
+          >
+            Add To Cart
+          </Link>
+        </div>
+        {/* fifth////////////////////////////// */}
+        <div className="bg-LightGrey relative pb-5 drop-shadow-xl ">
+          <img className="w-60" src="/Images(1).png" alt="" />
+          <div className="ml-5">
+            <h2 className="font-bold  mt-2">Body Wash</h2>
+            <p className="font-light text-sm  mt-2">Bath & Body</p>
+
+            <p className="font-bold text-sm  mt-2">₦2,450</p>
+            <p className=" text-sm  mt-2 text-gray-500 line-through">₦3,500</p>
+          </div>
+          <p className=" absolute rounded-full px-2 py-4 bg-tomato top-3 text-white left-44">
+            -50%
+          </p>
+
+          <Link
+            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer"
+            to="/Cart"
+          >
+            Add To Cart
+          </Link>
+        </div>
+        {/* sixth////////////////////////////////////// */}
+        <div className="bg-LightGrey relative pb-5 drop-shadow-xl ">
+          <img className="w-60" src="/image 1(2).png" alt="" />
+          <div className="ml-5">
+            <h2 className="font-bold  mt-2">Face Serum</h2>
+            <p className="font-light text-sm  mt-2">Face & Lip Care</p>
+
+            <p className="font-bold text-sm  mt-2">₦3,500</p>
+          </div>
+
+          {/* <p className=" absolute rounded-full px-2 py-3 bg-green-400 top-3 text-white right-3">
+          New
+        </p> */}
+          <Link
+            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer"
+            to="/Cart"
+          >
+            Add To Cart
+          </Link>
+        </div>
+        {/* seventh/////////////////////////////// */}
+        <div className="bg-LightGrey relative pb-5 drop-shadow-xl ">
+          <img className="w-60" src="/image 1(5).png" alt="" />
+          <div className="ml-5">
+            <h2 className="font-bold  mt-2">Facial Mist</h2>
+            <p className="font-light text-sm  mt-2">Face & Lip Care</p>
+
+            <p className="font-bold text-sm  mt-2">₦2,000</p>
+            <p className=" text-sm  mt-2 text-gray-500 line-through">₦4,000</p>
+          </div>
+          <p className=" absolute rounded-full px-2 py-4 bg-tomato top-3 text-white left-44">
+            -50%
+          </p>
+
+          <Link
+            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer"
+            to="/Cart"
+          >
+            Add To Cart
+          </Link>
+        </div>
+        {/* eigth////////////////////////////////// */}
+
+        <div className="bg-LightGrey relative pb-5 drop-shadow-xl ">
+          <img className="w-60" src="/image 1(4).png" alt="" />
+          <div className="ml-5">
+            <h2 className="font-bold  mt-2">Hair Conditioner</h2>
+            <p className="font-light text-sm  mt-2">Hair Care</p>
+
+            <p className="font-bold text-sm  mt-2">₦5,000</p>
+          </div>
+
+          <Link
+            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer"
+            to="/Cart"
+          >
+            Add To Cart
+          </Link>
+        </div>
+        {/* ninth/////////////////////////////// */}
+        <div className="bg-LightGrey relative pb-5 drop-shadow-xl ">
+          <img className="w-60" src="/prodimg/Images.png" alt="" />
+          <div className="ml-5">
+            <h2 className="font-bold  mt-2">Hair Mask</h2>
+            <p className="font-light text-sm  mt-2">Hair Care</p>
+
+            <p className="font-bold text-sm  mt-2">₦ 3,500.00</p>
+            <p className=" text-sm  mt-2 text-gray-500 line-through">
+              ₦ 5,000.00
+            </p>
+          </div>
+          <p className=" absolute rounded-full px-2 py-4 bg-tomato top-3 text-white left-44">
+            -30%
+          </p>
+
+          <Link
+            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer"
+            to="/Cart"
+          >
+            Add To Cart
+          </Link>
+        </div>
+        {/* tenth////////////////////////////////// */}
+        <div className="bg-LightGrey relative pb-5 drop-shadow-xl ">
+          <img className="w-60" src="/prodimg/Images-1.png" alt="" />
+          <div className="ml-5">
+            <h2 className="font-bold  mt-2">Face Moisturizer</h2>
+            <p className="font-light text-sm  mt-2">Face & Lip</p>
+
+            <p className="font-bold text-sm  mt-2">₦2,800</p>
+          </div>
+
+          <Link
+            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer"
+            to="/Cart"
+          >
+            Add To Cart
+          </Link>
+        </div>
+        {/* eleventh///////////////////////////// */}
+        <div className="bg-LightGrey relative pb-5 drop-shadow-xl ">
+          <img className="w-60" src="/prodimg/image 1.png" alt="" />
+          <div className="ml-5">
+            <h2 className="font-bold  mt-2">Makeup Remover</h2>
+            <p className="font-light text-sm  mt-2">Face & Lip Care</p>
+
+            <p className="font-bold text-sm  mt-2">₦7,000</p>
+            <p className=" text-sm  mt-2 text-gray-500 line-through">₦14,000</p>
+          </div>
+          <p className=" absolute rounded-full px-2 py-4 bg-tomato top-3 text-white left-44">
+            -50%
+          </p>
+
+          <Link
+            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer"
+            to="/Cart"
+          >
+            Add To Cart
+          </Link>
+        </div>
+        {/* twelvth////////////////////////////////// */}
+        <div className="bg-LightGrey relative pb-5 drop-shadow-xl ">
+          <img className="w-60" src="/prodimg/image 1-1.png" alt="" />
+          <div className="ml-5">
+            <h2 className="font-bold  mt-2">Face Toner</h2>
+            <p className="font-light text-sm  mt-2">Face & Lip</p>
+
+            <p className="font-bold text-sm  mt-2">₦5,000</p>
+          </div>
+          <p className=" absolute rounded-full px-2 py-4 bg-tomato top-3 text-white left-44">
             -50%
           </p>
 
           {/* <p className=" absolute rounded-full px-2 py-3 bg-green-400 top-3 text-white right-3">
           New
         </p> */}
-          <div className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold">
+          <Link
+            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer"
+            to="/Cart"
+          >
             Add To Cart
-          </div>
-        </div>
-        {/* fourth/////////////////////////////// */}
-
-        <div className="bg-LightGrey relative pb-5 drop-shadow-xl ">
-          <img className="w-60" src="/Images.png" alt="" />
-          <div className="ml-5">
-            <h2 className="font-bold  mt-2">Face Foam Wash</h2>
-            <p className="font-light text-sm  mt-2">Face & Lip</p>
-
-            <p className="font-bold text-sm  mt-2">₦2,800</p>
-            <p className=" text-sm  mt-2 text-gray-500 line-through">₦3,500</p>
-          </div>
-          <p className=" absolute rounded-full px-2 py-3 bg-tomato top-3 text-white left-44">
-            50%
-          </p>
-
-          {/* <p className=" absolute rounded-full px-2 py-3 bg-green-400 top-3 text-white right-3">
-          New
-        </p> */}
-          <div className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold">
-            Add To Cart
-          </div>
-        </div>
-        {/* fifth////////////////////////////// */}
-        <div className="bg-LightGrey relative pb-5 drop-shadow-xl ">
-          <img className="w-60" src="/Images.png" alt="" />
-          <div className="ml-5">
-            <h2 className="font-bold  mt-2">Face Foam Wash</h2>
-            <p className="font-light text-sm  mt-2">Face & Lip</p>
-
-            <p className="font-bold text-sm  mt-2">₦2,800</p>
-            <p className=" text-sm  mt-2 text-gray-500 line-through">₦3,500</p>
-          </div>
-          <p className=" absolute rounded-full px-2 py-3 bg-tomato top-3 text-white left-44">
-            50%
-          </p>
-
-          {/* <p className=" absolute rounded-full px-2 py-3 bg-green-400 top-3 text-white right-3">
-          New
-        </p> */}
-          <div className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold">
-            Add To Cart
-          </div>
-        </div>
-        {/* sixth////////////////////////////////////// */}
-        <div className="bg-LightGrey relative pb-5 drop-shadow-xl ">
-          <img className="w-60" src="/Images.png" alt="" />
-          <div className="ml-5">
-            <h2 className="font-bold  mt-2">Face Foam Wash</h2>
-            <p className="font-light text-sm  mt-2">Face & Lip</p>
-
-            <p className="font-bold text-sm  mt-2">₦2,800</p>
-            <p className=" text-sm  mt-2 text-gray-500 line-through">₦3,500</p>
-          </div>
-          <p className=" absolute rounded-full px-2 py-3 bg-tomato top-3 text-white left-44">
-            50%
-          </p>
-
-          {/* <p className=" absolute rounded-full px-2 py-3 bg-green-400 top-3 text-white right-3">
-          New
-        </p> */}
-          <div className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold">
-            Add To Cart
-          </div>
-        </div>
-        {/* seventh/////////////////////////////// */}
-        <div className="bg-LightGrey relative pb-5 drop-shadow-xl ">
-          <img className="w-60" src="/Images.png" alt="" />
-          <div className="ml-5">
-            <h2 className="font-bold  mt-2">Face Foam Wash</h2>
-            <p className="font-light text-sm  mt-2">Face & Lip</p>
-
-            <p className="font-bold text-sm  mt-2">₦2,800</p>
-            <p className=" text-sm  mt-2 text-gray-500 line-through">₦3,500</p>
-          </div>
-          <p className=" absolute rounded-full px-2 py-3 bg-tomato top-3 text-white left-44">
-            50%
-          </p>
-
-          {/* <p className=" absolute rounded-full px-2 py-3 bg-green-400 top-3 text-white right-3">
-          New
-        </p> */}
-          <div className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold">
-            Add To Cart
-          </div>
-        </div>
-        {/* eigth////////////////////////////////// */}
-        <div className="bg-LightGrey relative pb-5 drop-shadow-xl ">
-          <img className="w-60" src="/Images.png" alt="" />
-          <div className="ml-5">
-            <h2 className="font-bold  mt-2">Face Foam Wash</h2>
-            <p className="font-light text-sm  mt-2">Face & Lip</p>
-
-            <p className="font-bold text-sm  mt-2">₦2,800</p>
-            <p className=" text-sm  mt-2 text-gray-500 line-through">₦3,500</p>
-          </div>
-          <p className=" absolute rounded-full px-2 py-3 bg-tomato top-3 text-white left-44">
-            50%
-          </p>
-
-          {/* <p className=" absolute rounded-full px-2 py-3 bg-green-400 top-3 text-white right-3">
-          New
-        </p> */}
-          <div className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold">
-            Add To Cart
-          </div>
-        </div>
-        {/* ninth/////////////////////////////// */}
-        <div className="bg-LightGrey relative pb-5 drop-shadow-xl ">
-          <img className="w-60" src="/Images.png" alt="" />
-          <div className="ml-5">
-            <h2 className="font-bold  mt-2">Face Foam Wash</h2>
-            <p className="font-light text-sm  mt-2">Face & Lip</p>
-
-            <p className="font-bold text-sm  mt-2">₦2,800</p>
-            <p className=" text-sm  mt-2 text-gray-500 line-through">₦3,500</p>
-          </div>
-          <p className=" absolute rounded-full px-2 py-3 bg-tomato top-3 text-white left-44">
-            50%
-          </p>
-
-          {/* <p className=" absolute rounded-full px-2 py-3 bg-green-400 top-3 text-white right-3">
-          New
-        </p> */}
-          <div className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold">
-            Add To Cart
-          </div>
-        </div>
-        {/* tenth////////////////////////////////// */}
-        <div className="bg-LightGrey relative pb-5 drop-shadow-xl ">
-          <img className="w-60" src="/Images.png" alt="" />
-          <div className="ml-5">
-            <h2 className="font-bold  mt-2">Face Foam Wash</h2>
-            <p className="font-light text-sm  mt-2">Face & Lip</p>
-
-            <p className="font-bold text-sm  mt-2">₦2,800</p>
-            <p className=" text-sm  mt-2 text-gray-500 line-through">₦3,500</p>
-          </div>
-          <p className=" absolute rounded-full px-2 py-3 bg-tomato top-3 text-white left-44">
-            50%
-          </p>
-
-          {/* <p className=" absolute rounded-full px-2 py-3 bg-green-400 top-3 text-white right-3">
-          New
-        </p> */}
-          <div className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold">
-            Add To Cart
-          </div>
-        </div>
-        {/* eleventh///////////////////////////// */}
-        <div className="bg-LightGrey relative pb-5 drop-shadow-xl ">
-          <img className="w-60" src="/Images.png" alt="" />
-          <div className="ml-5">
-            <h2 className="font-bold  mt-2">Face Foam Wash</h2>
-            <p className="font-light text-sm  mt-2">Face & Lip</p>
-
-            <p className="font-bold text-sm  mt-2">₦2,800</p>
-            <p className=" text-sm  mt-2 text-gray-500 line-through">₦3,500</p>
-          </div>
-          <p className=" absolute rounded-full px-2 py-3 bg-tomato top-3 text-white left-44">
-            50%
-          </p>
-
-          {/* <p className=" absolute rounded-full px-2 py-3 bg-green-400 top-3 text-white right-3">
-          New
-        </p> */}
-          <div className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold">
-            Add To Cart
-          </div>
-        </div>
-        {/* twelvth////////////////////////////////// */}
-        <div className="bg-LightGrey relative pb-5 drop-shadow-xl ">
-          <img className="w-60" src="/Images.png" alt="" />
-          <div className="ml-5">
-            <h2 className="font-bold  mt-2">Face Foam Wash</h2>
-            <p className="font-light text-sm  mt-2">Face & Lip</p>
-
-            <p className="font-bold text-sm  mt-2">₦2,800</p>
-            <p className=" text-sm  mt-2 text-gray-500 line-through">₦3,500</p>
-          </div>
-          <p className=" absolute rounded-full px-2 py-3 bg-tomato top-3 text-white left-44">
-            50%
-          </p>
-
-          {/* <p className=" absolute rounded-full px-2 py-3 bg-green-400 top-3 text-white right-3">
-          New
-        </p> */}
-          <div className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold">
-            Add To Cart
-          </div>
+          </Link>
         </div>
         {/* thirthent////////////////////////// */}
         <div className="bg-LightGrey relative pb-5 drop-shadow-xl ">
-          <img className="w-60" src="/Images.png" alt="" />
+          <img className="w-60" src="/prodimg/Images-2.png" alt="" />
           <div className="ml-5">
-            <h2 className="font-bold  mt-2">Face Foam Wash</h2>
-            <p className="font-light text-sm  mt-2">Face & Lip</p>
+            <h2 className="font-bold  mt-2">Bubblegum Lipgloss</h2>
+            <p className="font-light text-sm  mt-2">Face & Lip Care</p>
 
-            <p className="font-bold text-sm  mt-2">₦2,800</p>
+            <p className="font-bold text-sm  mt-2">₦2,450</p>
             <p className=" text-sm  mt-2 text-gray-500 line-through">₦3,500</p>
           </div>
-          <p className=" absolute rounded-full px-2 py-3 bg-tomato top-3 text-white left-44">
-            50%
+          <p className=" absolute rounded-full px-2 py-4 bg-tomato top-3 text-white left-44">
+            -30%
           </p>
 
-          {/* <p className=" absolute rounded-full px-2 py-3 bg-green-400 top-3 text-white right-3">
-          New
-        </p> */}
-          <div className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold">
+          <Link
+            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer"
+            to="/Cart"
+          >
             Add To Cart
-          </div>
+          </Link>
         </div>
         {/* fourtrnth//////////////////////////// */}
-
         <div className="bg-LightGrey relative pb-5 drop-shadow-xl ">
-          <img className="w-60" src="/Images.png" alt="" />
+          <img className="w-60" src="/prodimg/image 1-2.png" alt="" />
           <div className="ml-5">
             <h2 className="font-bold  mt-2">Face Foam Wash</h2>
             <p className="font-light text-sm  mt-2">Face & Lip</p>
 
-            <p className="font-bold text-sm  mt-2">₦2,800</p>
-            <p className=" text-sm  mt-2 text-gray-500 line-through">₦3,500</p>
+            <p className="font-bold text-sm  mt-2">₦2,500</p>
           </div>
-          <p className=" absolute rounded-full px-2 py-3 bg-tomato top-3 text-white left-44">
-            50%
-          </p>
 
-          {/* <p className=" absolute rounded-full px-2 py-3 bg-green-400 top-3 text-white right-3">
-          New
-        </p> */}
-          <div className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold">
+          <Link
+            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer"
+            to="/Cart"
+          >
             Add To Cart
-          </div>
+          </Link>
         </div>
         {/* fiftnent//////////////////////////////// */}
         <div className="bg-LightGrey relative pb-5 drop-shadow-xl ">
-          <img className="w-60" src="/Images.png" alt="" />
+          <img className="w-60" src="/prodimg/image 1-3.png" alt="" />
           <div className="ml-5">
-            <h2 className="font-bold  mt-2">Face Foam Wash</h2>
-            <p className="font-light text-sm  mt-2">Face & Lip</p>
+            <h2 className="font-bold  mt-2">Edge Control</h2>
+            <p className="font-light text-sm  mt-2">Hair Care</p>
 
-            <p className="font-bold text-sm  mt-2">₦2,800</p>
-            <p className=" text-sm  mt-2 text-gray-500 line-through">₦3,500</p>
+            <p className="font-bold text-sm  mt-2">₦ 7,000.00</p>
+            <p className=" text-sm  mt-2 text-gray-500 line-through">₦14,000</p>
           </div>
-          <p className=" absolute rounded-full px-2 py-3 bg-tomato top-3 text-white left-44">
-            50%
+          <p className=" absolute rounded-full px-2 py-4 bg-tomato top-3 text-white left-44">
+            -50%
           </p>
 
           {/* <p className=" absolute rounded-full px-2 py-3 bg-green-400 top-3 text-white right-3">
           New
         </p> */}
-          <div className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold">
+          <Link
+            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer"
+            to="/Cart"
+          >
             Add To Cart
-          </div>
+          </Link>
         </div>
         {/* sixtenth/////////////////////////////// */}
         <div className="bg-LightGrey relative pb-5 drop-shadow-xl ">
-          <img className="w-60" src="/Images.png" alt="" />
+          <img className="w-60" src="/prodimg/image 1-4.png" alt="" />
           <div className="ml-5">
-            <h2 className="font-bold  mt-2">Face Foam Wash</h2>
-            <p className="font-light text-sm  mt-2">Face & Lip</p>
+            <h2 className="font-bold  mt-2">Body Lotion</h2>
+            <p className="font-light text-sm  mt-2">Bath Body</p>
 
-            <p className="font-bold text-sm  mt-2">₦2,800</p>
-            <p className=" text-sm  mt-2 text-gray-500 line-through">₦3,500</p>
+            <p className="font-bold text-sm  mt-2">₦5,000</p>
           </div>
-          <p className=" absolute rounded-full px-2 py-3 bg-tomato top-3 text-white left-44">
-            50%
-          </p>
 
-          {/* <p className=" absolute rounded-full px-2 py-3 bg-green-400 top-3 text-white right-3">
-          New
-        </p> */}
-          <div className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold">
+          <Link
+            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer"
+            to="/Cart"
+          >
             Add To Cart
-          </div>
+          </Link>
         </div>
       </main>
       <div className="flex justify-center items-center gap-10 mt-10">
@@ -358,7 +335,7 @@ const ShopProduct = () => {
         </Link>
         <Link
           className="bg-gray-500 text-black w-14 h-14 rounded-lg  flex justify-center items-center"
-          to="/ShopSecProduct"
+          to="/ShopSecProdcut"
         >
           2
         </Link>

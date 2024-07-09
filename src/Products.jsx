@@ -54,7 +54,7 @@ const Products = ({
           </p>
         )}
 
-        {isHovered && (
+        {/* {isHovered && (
           <div className="absolute top-0 left-0 w-full h-full bg-overlay flex flex-col justify-center items-center opacity-85">
             <button className="m-5 p-5 bg-primaryBlue text-white cursor-pointer">
               View Product
@@ -63,7 +63,7 @@ const Products = ({
               Add to Cart
             </button>
           </div>
-        )}
+        )} */}
 
         <Link
           className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold"

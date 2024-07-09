@@ -12,7 +12,9 @@ const Cart = () => {
           </h1>
 
           <div className="  md:top-32 md:left-128 flex justify-center items-center gap-2 text-Greydarker">
-            <p className="text-xs md:text-sm font-bold ">Home</p>
+            <Link className="text-xs md:text-sm font-bold " to="/">
+              Home
+            </Link>
             <img
               className="w-2 h-3 md:w-3 md:h-4 "
               src="./icons/Vector(2).png"
@@ -150,104 +152,89 @@ const Cart = () => {
         <h1 className="text-xl font-semibold">Recommended Products</h1>
         <main className="flex flex-wrap gap-20 p-5 justify-center">
           <div className="bg-LightGrey relative pb-5 drop-shadow-xl ">
-            <img className="w-60" src="/Images.png" alt="" />
+            <img className="w-60" src="/image 1(4).png" alt="" />
             <div className="ml-5">
-              <h2 className="font-bold  mt-2">Face Foam Wash</h2>
-              <p className="font-light text-sm  mt-2">Face & Lip</p>
+              <h2 className="font-bold  mt-2">Hair Conditioner</h2>
+              <p className="font-light text-sm  mt-2">Hair Care</p>
 
-              <p className="font-bold text-sm  mt-2">₦2,800</p>
-              <p className=" text-sm  mt-2 text-gray-500 line-through">
-                ₦3,500
-              </p>
+              <p className="font-bold text-sm  mt-2">₦5,000</p>
             </div>
-            <p className=" absolute rounded-full px-2 py-3 bg-tomato top-3 text-white left-44">
-              -50%
-            </p>
 
-            {/* <p className=" absolute rounded-full px-2 py-3 bg-green-400 top-3 text-white right-3">
-          New
-        </p> */}
-            <div className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold">
+            <Link
+              className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer"
+              to="/Cart"
+            >
               Add To Cart
-            </div>
-            <div className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold">
-              Add To Cart
-            </div>
+            </Link>
           </div>
           <div className="bg-LightGrey relative pb-5 drop-shadow-xl ">
-            <img className="w-60" src="/Images.png" alt="" />
+            <img className="w-60" src="/prodimg/Images.png" alt="" />
             <div className="ml-5">
-              <h2 className="font-bold  mt-2">Face Foam Wash</h2>
-              <p className="font-light text-sm  mt-2">Face & Lip</p>
+              <h2 className="font-bold  mt-2">Hair Mask</h2>
+              <p className="font-light text-sm  mt-2">Hair Care</p>
 
-              <p className="font-bold text-sm  mt-2">₦2,800</p>
+              <p className="font-bold text-sm  mt-2">₦ 3,500.00</p>
               <p className=" text-sm  mt-2 text-gray-500 line-through">
-                ₦3,500
+                ₦ 5,000.00
               </p>
             </div>
-            <p className=" absolute rounded-full px-2 py-3 bg-tomato top-3 text-white left-44">
-              -50%
+            <p className=" absolute rounded-full px-2 py-4 bg-tomato top-3 text-white left-44">
+              -30%
             </p>
 
-            {/* <p className=" absolute rounded-full px-2 py-3 bg-green-400 top-3 text-white right-3">
-          New
-        </p> */}
-            <div className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold">
+            <Link
+              className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer"
+              to="/Cart"
+            >
               Add To Cart
-            </div>
-            <div className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold">
-              Add To Cart
-            </div>
+            </Link>
           </div>
           <div className="bg-LightGrey relative pb-5 drop-shadow-xl ">
-            <img className="w-60" src="/Images.png" alt="" />
+            <img className="w-60" src="./image 1.png" alt="" />
             <div className="ml-5">
-              <h2 className="font-bold  mt-2">Face Foam Wash</h2>
-              <p className="font-light text-sm  mt-2">Face & Lip</p>
+              <h2 className="font-bold  mt-2"> Aryuvedic Hair Butter</h2>
+              <p className="font-light text-sm  mt-2">Hair Care</p>
 
-              <p className="font-bold text-sm  mt-2">₦2,800</p>
+              <p className="font-bold text-sm  mt-2">₦10,000</p>
               <p className=" text-sm  mt-2 text-gray-500 line-through">
-                ₦3,500
+                ₦20,000
               </p>
             </div>
-            <p className=" absolute rounded-full px-2 py-3 bg-tomato top-3 text-white left-44">
+            <p className=" absolute rounded-full px-2 py-4 bg-tomato top-3 text-white left-44">
               -50%
             </p>
 
-            {/* <p className=" absolute rounded-full px-2 py-3 bg-green-400 top-3 text-white right-3">
-          New
-        </p> */}
-            <div className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold">
+            <Link
+              className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer"
+              to="/Cart"
+            >
               Add To Cart
-            </div>
-            <div className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold">
-              Add To Cart
-            </div>
+            </Link>
           </div>
           <div className="bg-LightGrey relative pb-5 drop-shadow-xl ">
-            <img className="w-60" src="/Images.png" alt="" />
+            <img className="w-60" src="/prodimg/image 1-3.png" alt="" />
             <div className="ml-5">
-              <h2 className="font-bold  mt-2">Face Foam Wash</h2>
-              <p className="font-light text-sm  mt-2">Face & Lip</p>
+              <h2 className="font-bold  mt-2">Edge Control</h2>
+              <p className="font-light text-sm  mt-2">Hair Care</p>
 
-              <p className="font-bold text-sm  mt-2">₦2,800</p>
+              <p className="font-bold text-sm  mt-2">₦ 7,000.00</p>
               <p className=" text-sm  mt-2 text-gray-500 line-through">
-                ₦3,500
+                ₦14,000
               </p>
             </div>
-            <p className=" absolute rounded-full px-2 py-3 bg-tomato top-3 text-white left-44">
+            <p className=" absolute rounded-full px-2 py-4 bg-tomato top-3 text-white left-44">
               -50%
             </p>
 
             {/* <p className=" absolute rounded-full px-2 py-3 bg-green-400 top-3 text-white right-3">
           New
         </p> */}
-            <div className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold">
+            <Link
+              className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer"
+              to="/Cart"
+            >
               Add To Cart
-            </div>
-            <div className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold">
-              Add To Cart
-            </div>
+            </Link>
           </div>
         </main>
         <button className="border-2 border-solid border-primaryBlue text-primaryBlue bg-white px-8 py-2">

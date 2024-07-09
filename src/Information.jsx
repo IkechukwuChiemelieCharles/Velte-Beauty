@@ -6,40 +6,42 @@ const Information = () => {
     <div className="overflow-hidden bg-milk">
       <div>
         <img className="w-full" src="./IMG1/Rectangle 1.png" alt="" />
-        <div className="  md:top-32 md:left-128 flex justify-center items-center gap-2 text-Greydarker flex-col -mt-16 md:-mt-32 mb-16 ">
-          <h1 className="text-md  top-5 left-32 md:top-20 md:left-130 md:text-2xl font-bold text-Greydarker">
+        <div className="  lg:top-32 lg:left-128 flex justify-center items-center gap-2 text-Greydarker flex-col -mt-16 lg:-mt-32 mb-16 ">
+          <h1 className="text-lg  top-5 left-32 lg:top-20 lg:left-130 lg:text-2xl font-bold text-Greydarker">
             Cart
           </h1>
 
-          <div className="  md:top-32 md:left-128 flex justify-center items-center gap-2 text-Greydarker">
-            <p className="text-xs md:text-sm font-bold ">Home</p>
+          <div className="  lg:top-32 lg:left-128 flex justify-center items-center gap-2 text-Greydarker">
+            <p className="text-xs lg:text-sm font-bold ">Home</p>
             <img
-              className="w-2 h-3 md:w-3 md:h-4 "
+              className="w-2 h-3 lg:w-3 lg:h-4 "
               src="./icons/Vector(2).png"
               alt=""
             />
-            <p className="text-xs md:text-sm">Cart</p>
+            <p className="text-xs lg:text-sm">Cart</p>
           </div>
         </div>
       </div>
       {/* end of <header></header>///////////////////////////////////////////// */}
-      <div className="flex gap-2 md:gap-5  items-center p-5 bg-lightPink  md:px-20">
-        <p className="text-xs md:text-sm text-Greydarker">Cart</p>
+      <div className="flex gap-2 lg:gap-5  items-center p-5 bg-lightPink  lg:px-20">
+        <Link className="text-xs lg:text-sm text-Greydarker " to="/cart">
+          Cart
+        </Link>
         <img className="w-2 h-2  " src="./icons/Vector(2).png" alt="" />
-        <p className="text-xs md:text-sm  font-bold text-primaryBlue">
+        <p className="text-xs lg:text-sm  font-bold text-primaryBlue">
           Information
         </p>
         <img className="w-2 h-2  " src="./icons/Vector(2).png" alt="" />
 
-        <p className="text-xs md:text-sm text-Greydarker">Payment & Shipping</p>
+        <p className="text-xs lg:text-sm text-Greydarker">Payment & Shipping</p>
       </div>
 
       {/* end of list/////////////////////////////////////////// */}
-      <div className="general-cont flex-col md:flex-row flex  gap-3 px-5 md:px-20 mb-20 items-center">
-        <div className="bg-white w-72 md:w-128 p-5">
+      <div className="general-cont flex-col lg:flex-row flex  gap-3 px-5 lg:px-20 mb-20 items-center">
+        <div className="bg-white w-72 lg:w-128 p-5">
           <h2 className="text-center text-xl font-bold">Contact Information</h2>
           <input
-            className="w-60 md:w-96 h-8 p-2 mt-5 border-solid border-Greydarker border-2"
+            className="w-60 lg:w-96 h-8 p-2 mt-5 border-solid border-Greydarker border-2"
             type="email"
             placeholder="Email"
           />
@@ -70,17 +72,17 @@ const Information = () => {
           {/* form?////////////////////////////// */}
           <form
             action=""
-            className="bg-white md:mt-10 flex flex-col gap-5 p-5 "
+            className="bg-white lg:mt-10 flex flex-col gap-5 p-5 "
           >
             <h2 className="font-bold">Shipping Address</h2>
-            <div className="flex flex-col md:flex-row gap-5">
+            <div className="flex flex-col lg:flex-row gap-5">
               <input
-                className="md:w-72 h-10 px-5 border-solid border-Greydarker border-2"
+                className="lg:w-72 h-10 px-5 border-solid border-Greydarker border-2"
                 type="text"
                 placeholder="First Name"
               />
               <input
-                className="md:w-72 h-10  px-5 border-solid border-Greydarker border-2"
+                className="lg:w-72 h-10  px-5 border-solid border-Greydarker border-2"
                 type="text"
                 placeholder="Last Name"
               />
@@ -101,19 +103,19 @@ const Information = () => {
               type="text"
               placeholder="Apartment, Suite etc"
             />
-            <div className="flex gap-2 flex-col md:flex-row">
+            <div className="flex gap-2 flex-col lg:flex-row">
               <input
-                className="md:w-40 h-10 px-5 border-solid border-Greydarker border-2"
+                className="lg:w-40 h-10 px-5 border-solid border-Greydarker border-2"
                 type="text"
                 placeholder="City"
               />
               <input
-                className="md:w-40 h-10 px-5 border-solid border-Greydarker border-2"
+                className="lg:w-40 h-10 px-5 border-solid border-Greydarker border-2"
                 type="text"
                 placeholder="Province"
               />
               <input
-                className="md:w-40 h-10 px-5 border-solid border-Greydarker border-2"
+                className="lg:w-40 h-10 px-5 border-solid border-Greydarker border-2"
                 type="text"
                 placeholder="Postal Code"
               />
@@ -124,13 +126,13 @@ const Information = () => {
               placeholder="Phone"
             />
           </form>
-          <div className="flex items-center gap-5 md:mt-5 px-5">
+          <div className="flex items-center gap-5 lg:mt-5 px-5">
             <input type="checkbox" />
             <p className="text-Greydarker ">
               Save this information for next time
             </p>
           </div>
-          <div className="flex gap-10 mt-5 flex-col md:flex-row justify-center items-center ">
+          <div className="flex gap-10 mt-5 flex-col lg:flex-row justify-center items-center ">
             <div className="flex items-center gap-2">
               <img className="w-2 h-3" src="icons/Vector.png" alt="" />
               <Link className="cursor-pointer" to="/Cart">
@@ -147,12 +149,12 @@ const Information = () => {
         </div>
         {/* end of payment////////////////////////////////////////// */}
 
-        <div className="flex flex-col flex-wrap md:px-5  ">
+        <div className="flex flex-col flex-wrap lg:px-5  ">
           <div className="bg-white py-5 px-5 w-72">
             <h3 className="text-Greydarker text-center border-b-2 border-b-Greydarker border-b-solid font-bold py-3">
               Order Summary
             </h3>
-            <div className="flex border-b-2 border-b-Greydarker border-b-solid gap-10 md:gap-14 justify-center text-Greydarker mt-10 pb-5 px-20">
+            <div className="flex border-b-2 border-b-Greydarker border-b-solid gap-10 lg:gap-14 justify-center text-Greydarker mt-10 pb-5 px-20">
               <ul className="flex flex-col gap-2 ">
                 <li className="font-bold text-lg text-nowrap">
                   Items Total (2)
@@ -189,7 +191,7 @@ const Information = () => {
                 <img src="./icons/shield-check.png" alt="" />
                 <p className="text-Green">Buyer Protection</p>
               </div>
-              <p className="md:w-60 w-60 text-Greydarker">
+              <p className="lg:w-60 w-60 text-Greydarker">
                 Get full refund if the item is not as described or if is not
                 delivered
               </p>

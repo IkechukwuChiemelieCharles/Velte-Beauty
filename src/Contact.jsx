@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
@@ -12,7 +13,10 @@ const Contact = () => {
           </h1>
 
           <div className="  md:top-32 md:left-128 flex justify-center items-center gap-2 text-Greydarker">
-            <p className="text-xs md:text-sm font-bold ">Home</p>
+            <Link className="text-xs md:text-sm font-bold " to="/">
+              Home
+            </Link>
+
             <img
               className="w-2 h-3 md:w-3 md:h-4 "
               src="./icons/Vector(2).png"
