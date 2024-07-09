@@ -28,9 +28,6 @@ const Nav = () => {
         </li>
       </ul>
       <div className="flex justify-between gap-2 md:gap-5 items-center">
-        <img className="w-4 h-4" src="./icons/user.png" alt="" />
-        <img className="w-4 h-4" src="./icons/Vector.png" alt="" />
-        <img className="w-4 h-4" src="./icons/akar-icons_heart.png" alt="" />
         <img
           className="w-4 h-4"
           src="./icons/ant-design_shopping-cart-outlined.png"

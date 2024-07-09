@@ -11,6 +11,9 @@ import ShopHeader from "./ShopHeader";
 import ShopProduct from "./ShopProduct";
 import ShopSecProduct from "./ShopSecProdcut";
 import Cart from "./Cart";
+import Information from "./Information";
+import Payment from "./Payment";
+import Success from "./Success";
 
 function App() {
   return (
@@ -25,6 +28,9 @@ function App() {
           <Route path="/ShopProduct" element={<Shop />} />
           <Route path="/ShopSecProduct" element={<Shop />} />
           <Route path="/Cart" element={<Cart />} />
+          <Route path="/Information" element={<Information />} />
+          <Route path="/Payment" element={<Payment />} />
+          <Route path="/Success" element={<Success />} />
         </Routes>
         <Footer />
       </div>

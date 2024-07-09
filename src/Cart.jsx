@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Cart = () => {
   return (
@@ -25,8 +26,7 @@ const Cart = () => {
         <p className="text-xs md:text-sm font-bold text-primaryBlue">Cart</p>
         <img className="w-2 h-2  " src="./icons/Vector(2).png" alt="" />
         <p className="text-xs md:text-sm text-Greydarker">Information</p>
-        <p className="text-xs md:text-sm text-Greydarker">Shipping</p>
-        <p className="text-xs md:text-sm text-Greydarker">Payment</p>
+        <p className="text-xs md:text-sm text-Greydarker">Payment & Shipping</p>
       </div>
 
       <div className="flex gap-20 flex-col md:flex-row justify-center items-center md:items-start ">
@@ -117,9 +117,12 @@ const Cart = () => {
                 <p className="font-bold">Total</p>
                 <p className="font-bold">₦11,100.00</p>
               </div>
-              <button className="bg-primaryBlue text-white px-8 py-2 font-bold rounded-sm">
+              <Link
+                className="bg-primaryBlue text-white px-8 py-2 font-bold rounded-sm"
+                to="/Information"
+              >
                 Proceed To Checkout
-              </button>
+              </Link>
             </div>
           </div>
           <div className="flex flex-col justify-center items-center mt-10 bg-white py-5">
