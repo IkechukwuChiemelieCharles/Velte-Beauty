@@ -39,19 +39,19 @@ const Cart = () => {
               Deselect All Items
             </p>
           </div>
-          <div className="bg-red-500 md:bg-white w-72 md:w-140 ml-5 flex  flex-col md:flex-wrap ">
+          <div className="bg-white md:bg-white w-72 md:w-140 ml-5 flex  flex-col md:flex-wrap ">
             <div className="mt-5  p-5 flex  items-center gap-2 flex-wrap">
               <p>Cart (1)</p>
               <img className="w-2 h-2  " src="./icons/Vector(2).png" alt="" />
             </div>
-            <div className="flex flex-col md:flex-wrap bg-yellow-600">
+            <div className="flex flex-col md:flex-wrap bg-white">
               <div className="border-2 border-solid border-Greydarker flex justify-around p-2 md:flex-wrap text-xs md:text-lg">
                 <p>Product</p>
                 <p>Name Product</p>
                 <p>Quantity</p>
                 <p>Price</p>
               </div>
-              <div className="flex  items-center md:justify-start md:items-start md:p-5 p-0 md:gap-5 gap-3 bg-green-600  text-xs">
+              <div className="flex  items-center md:justify-start md:items-start md:p-5 p-0 md:gap-5 gap-3 bg-white  text-xs">
                 <input className="self-center" type="checkbox" />
                 <img
                   className="w-10 md:w-36 rounded-sm"
@@ -91,12 +91,12 @@ const Cart = () => {
           </div>
         </div>
 
-        <div className="flex flex-col flex-wrap px-5 ">
-          <div className="bg-white py-5 px-5">
+        <div className="flex flex-col  flex-wrap px-5">
+          <div className="bg-white py-5 px-5  ">
             <h3 className="text-Greydarker text-center border-b-2 border-b-Greydarker border-b-solid font-bold py-3">
               Order Summary
             </h3>
-            <div className="flex border-b-2 border-b-Greydarker border-b-solid gap-32 justify-center text-Greydarker mt-10 pb-5">
+            <div className="flex border-b-2  border-b-Greydarker border-b-solid gap-32 justify-center text-Greydarker mt-10 pb-5">
               <ul className="flex flex-col gap-2">
                 <li className="font-bold text-lg ">Items Total (2)</li>
                 <li>Discount</li>
