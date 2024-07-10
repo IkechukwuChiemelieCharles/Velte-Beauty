@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Nav = () => {
   return (
-    <nav className="bg-primaryBlue flex lg:justify-around items-center w-full  justify-between ">
+    <nav className="bg-primaryBlue flex lg:justify-around items-center w-full  justify-around ">
       <div className="flex justify-center items-center">
         <img className="w-20" src="./Velte logo.png" alt="" />
         <p className="text-nowrap text-xs md:text-2xl text-white font-bold">
@@ -11,7 +11,7 @@ const Nav = () => {
         </p>
       </div>
       <ul
-        className=" gap-10 hidden lg:block lg:flex xl:gap-20 text-xs text-white font-bold
+        className=" gap-10 flex  xl:gap-20 text-xs text-white font-bold
       "
       >
         <li>
@@ -31,11 +31,11 @@ const Nav = () => {
           src="./icons/ant-design_shopping-cart-outlined.png"
           alt=""
         />
-        <img
+        {/* <img
           className="w-10 lg:hidden"
           src="./icons/menu_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
           alt=""
-        />
+        /> */}
       </div>
     </nav>
   );
