@@ -24,12 +24,6 @@ const Nav = () => {
             Shop
           </Link>
         </li>
-
-        <li>
-          <Link to="/Contact" className="hover:text-Green">
-            Contact
-          </Link>
-        </li>
       </ul>
       <div className="flex justify-between gap-2 md:gap-5 items-center">
         <Link to="/Cart" className="">

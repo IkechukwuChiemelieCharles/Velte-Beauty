@@ -162,7 +162,7 @@ const Cart = () => {
 
             <Link
               className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer"
-              to="/Cart"
+              to="/Shop"
             >
               Add To Cart
             </Link>
@@ -184,7 +184,7 @@ const Cart = () => {
 
             <Link
               className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer"
-              to="/Cart"
+              to="/Shop"
             >
               Add To Cart
             </Link>
@@ -206,7 +206,7 @@ const Cart = () => {
 
             <Link
               className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer"
-              to="/Cart"
+              to="/Shop"
             >
               Add To Cart
             </Link>
@@ -231,15 +231,19 @@ const Cart = () => {
         </p> */}
             <Link
               className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer"
-              to="/Cart"
+              to="/Shop"
             >
               Add To Cart
             </Link>
           </div>
         </main>
-        <button className="border-2 border-solid border-primaryBlue text-primaryBlue bg-white px-8 py-2">
+
+        <Link
+          className="border-2 border-solid border-primaryBlue text-primaryBlue bg-white px-8 py-2"
+          to="/Shop"
+        >
           Show More
-        </button>
+        </Link>
       </div>
     </div>
   );

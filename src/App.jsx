@@ -5,7 +5,6 @@ import Home from "./Home";
 import Nav from "./Nav";
 import Footer from "./Footer";
 import Shop from "./Shop";
-import Contact from "./Contact";
 import ShopHeader from "./ShopHeader";
 import ShopProduct from "./ShopProduct";
 import ShopSecProdcut from "./ShopSecProdcut";
@@ -22,7 +21,6 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/shop" element={<ShopHeader />} />
-          <Route path="/contact" element={<Contact />} />
           <Route path="/ShopProduct" element={<Shop />} />
           <Route path="/ShopSecProdcut" element={<ShopSecProdcut />} />
           <Route path="/Cart" element={<Cart />} />
