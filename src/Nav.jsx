@@ -11,26 +11,35 @@ const Nav = () => {
         </p>
       </div>
       <ul
-        className=" gap-2 lg:gap-10 flex  xl:gap-20 text-xs text-white font-bold
+        className=" gap-2 sm:gap-10 lg:gap-10 flex  xl:gap-20 text-xs text-white font-bold
       "
       >
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/" className="hover:text-Green">
+            Home
+          </Link>
         </li>
         <li>
-          <Link to="/Shop">Shop</Link>
+          <Link to="/Shop" className="hover:text-Green">
+            Shop
+          </Link>
         </li>
 
         <li>
-          <Link to="/Contact">Contact</Link>
+          <Link to="/Contact" className="hover:text-Green">
+            Contact
+          </Link>
         </li>
       </ul>
       <div className="flex justify-between gap-2 md:gap-5 items-center">
-        <img
-          className="w-4 h-4"
-          src="./icons/ant-design_shopping-cart-outlined.png"
-          alt=""
-        />
+        <Link to="/Cart" className="">
+          <img
+            className="w-4 h-4"
+            src="./icons/ant-design_shopping-cart-outlined.png"
+            alt=""
+          />
+        </Link>
+
         {/* <img
           className="w-10 lg:hidden"
           src="./icons/menu_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"

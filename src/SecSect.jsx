@@ -115,7 +115,7 @@ const SecSect = () => {
       </div>
 
       <Link
-        className="border-2 border-primaryBlue border-solid px-16 py-2 my-10"
+        className="border-2 border-primaryBlue border-solid px-16 py-2 my-10 hover:bg-primaryBlue hover:border-black hover:rounded-lg"
         to="/Shop"
       >
         Shop

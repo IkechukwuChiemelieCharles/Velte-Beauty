@@ -7,15 +7,15 @@ const FirstSec = () => {
         Discover the perfect products for your beauty routine
       </p>
       <div className="flex gap-10 flex-wrap justify-center">
-        <div className="flex flex-col gap-3">
-          <img className="w-80" src="./image 106.png" alt="" />
+        <div className="flex flex-col gap-3 hover:w-72 hover:text-primaryBlue">
+          <img className="w-80 " src="./image 106.png" alt="" />
           <p className="text-center text-sm font-bold">Lip & Face Care</p>
         </div>
-        <div className="flex flex-col gap-3">
+        <div className="flex flex-col gap-3 hover:w-72 hover:text-primaryBlue">
           <img className="w-80" src="./Image-.png" alt="" />
           <p className="text-center text-sm font-bold">Lip & Face Care</p>
         </div>
-        <div className="flex flex-col gap-3">
+        <div className="flex flex-col gap-3 hover:w-72 hover:text-primaryBlue">
           <img className="w-80" src="./image 101.png" alt="" />
           <p className="text-center text-sm font-bold">Lip & Face Care</p>
         </div>

@@ -18,10 +18,10 @@ const Header = () => {
         </p>
 
         <Link
-          className="py-2 px-5 text-sm font-bold  text-white bg-Green rounded-sm drop-shadow-lg mt-10"
+          className="py-2 px-5 text-sm font-bold  text-white bg-Green   mt-10 hover:rounded-lg hover:drop-shadow-2xl"
           to="/Shop"
         >
-          BUY Now
+          Buy Now
         </Link>
       </div>
     </header>

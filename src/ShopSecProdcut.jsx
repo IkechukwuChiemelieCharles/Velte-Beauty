@@ -5,9 +5,13 @@ import { Link } from "react-router-dom";
 const ShopSecProduct = () => {
   return (
     <div className="overflow-hidden">
-      <main className="flex flex-wrap gap-20 p-5 justify-center items-center overflow-hidden">
+      <main className="flex flex-wrap gap-10 p-5 justify-center items-center overflow-hidden">
         <div className="bg-LightGrey relative pb-5 drop-shadow-xl ">
-          <img className="w-60" src="/prodimg2/Images(2).png" alt="" />
+          <img
+            className="w-60 hover:w-64  hover:rounded-lg"
+            src="/prodimg2/Images(2).png"
+            alt=""
+          />
           <div className="ml-5">
             <h2 className="font-bold  mt-2">Heat Hair Spray</h2>
             <p className="font-light text-sm  mt-2">Hair Care</p>
@@ -20,7 +24,7 @@ const ShopSecProduct = () => {
           </p>
 
           <Link
-            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer"
+            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer hover:bg-blue-700"
             to="/Cart"
           >
             Add To Cart
@@ -29,7 +33,11 @@ const ShopSecProduct = () => {
         {/* second////////////////////////////////// */}
 
         <div className="bg-LightGrey relative pb-5 drop-shadow-xl ">
-          <img className="w-60" src="/prodimg2/image 1(6).png" alt="" />
+          <img
+            className="w-64 hover:w-72  hover:rounded-lg"
+            src="/prodimg2/image 1(6).png"
+            alt=""
+          />
           <div className="ml-5">
             <h2 className="font-bold  mt-2"> Cellulite Cream</h2>
             <p className="font-light text-sm  mt-2">Bath & Body</p>
@@ -41,7 +49,7 @@ const ShopSecProduct = () => {
           New
         </p> */}
           <Link
-            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer"
+            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer hover:bg-blue-700"
             to="/Cart"
           >
             Add To Cart
@@ -50,7 +58,11 @@ const ShopSecProduct = () => {
         {/* third///////////////////////////////////// */}
 
         <div className="bg-LightGrey relative pb-5 drop-shadow-xl ">
-          <img className="w-60" src="./image 1(4).png" alt="" />
+          <img
+            className="w-64 hover:w-72  hover:rounded-lg"
+            src="./image 1(4).png"
+            alt=""
+          />
           <div className="ml-5">
             <h2 className="font-bold  mt-2">Hand Cream</h2>
             <p className="font-light text-sm  mt-2">Bath & Body </p>
@@ -62,7 +74,7 @@ const ShopSecProduct = () => {
           New
         </p> */}
           <Link
-            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer"
+            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer hover:bg-blue-700"
             to="/Cart"
           >
             Add To Cart
@@ -71,7 +83,11 @@ const ShopSecProduct = () => {
         {/* fourth/////////////////////////////// */}
 
         <div className="bg-LightGrey relative pb-5 drop-shadow-xl ">
-          <img className="w-60" src="/prodimg2/Images(3).png" alt="" />
+          <img
+            className="w-64 hover:w-72   hover:rounded-lg"
+            src="/prodimg2/Images(3).png"
+            alt=""
+          />
           <div className="ml-5">
             <h2 className="font-bold  mt-2">Sun Screen Lotion</h2>
             <p className="font-light text-sm  mt-2">Bath & Body</p>
@@ -83,7 +99,7 @@ const ShopSecProduct = () => {
           New
         </p> */}
           <Link
-            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer"
+            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer hover:bg-blue-700"
             to="/Cart"
           >
             Add To Cart
@@ -91,7 +107,11 @@ const ShopSecProduct = () => {
         </div>
         {/* fifth////////////////////////////// */}
         <div className="bg-LightGrey relative pb-5 drop-shadow-xl ">
-          <img className="w-60" src="/prodimg2/image 1(8).png" alt="" />
+          <img
+            className="w-60 hover:w-64  hover:rounded-lg"
+            src="/prodimg2/image 1(8).png"
+            alt=""
+          />
           <div className="ml-5">
             <h2 className="font-bold  mt-2">Face Scrub</h2>
             <p className="font-light text-sm  mt-2">Face & Lip Care</p>
@@ -107,7 +127,7 @@ const ShopSecProduct = () => {
           New
         </p> */}
           <Link
-            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer"
+            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer hover:bg-blue-700"
             to="/Cart"
           >
             Add To Cart
@@ -115,7 +135,11 @@ const ShopSecProduct = () => {
         </div>
         {/* sixth////////////////////////////////////// */}
         <div className="bg-LightGrey relative pb-5 drop-shadow-xl ">
-          <img className="w-60" src="/prodimg2/image 1(9).png" alt="" />
+          <img
+            className="w-64 hover:w-72   hover:rounded-lg"
+            src="/prodimg2/image 1(9).png"
+            alt=""
+          />
           <div className="ml-5">
             <h2 className="font-bold  mt-2">Face Foam Wash</h2>
             <p className="font-light text-sm  mt-2">Face & Lip</p>
@@ -127,7 +151,7 @@ const ShopSecProduct = () => {
           New
         </p> */}
           <Link
-            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer"
+            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer hover:bg-blue-700"
             to="/Cart"
           >
             Add To Cart
@@ -135,7 +159,11 @@ const ShopSecProduct = () => {
         </div>
         {/* seventh/////////////////////////////// */}
         <div className="bg-LightGrey relative pb-5 drop-shadow-xl ">
-          <img className="w-60" src="/prodimg2/image 1(10).png" alt="" />
+          <img
+            className="w-60 hover:w-64  hover:rounded-lg"
+            src="/prodimg2/image 1(10).png"
+            alt=""
+          />
           <div className="ml-5">
             <h2 className="font-bold  mt-2">Face Foam Wash</h2>
             <p className="font-light text-sm  mt-2">Face & Lip</p>
@@ -151,7 +179,7 @@ const ShopSecProduct = () => {
           New
         </p> */}
           <Link
-            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer"
+            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer hover:bg-blue-700"
             to="/Cart"
           >
             Add To Cart
@@ -159,7 +187,11 @@ const ShopSecProduct = () => {
         </div>
         {/* eigth////////////////////////////////// */}
         <div className="bg-LightGrey relative pb-5 drop-shadow-xl ">
-          <img className="w-60" src="/prodimg2/image 1(7).png" alt="" />
+          <img
+            className="w-64 hover:w-72   hover:rounded-lg"
+            src="/prodimg2/image 1(7).png"
+            alt=""
+          />
           <div className="ml-5">
             <h2 className="font-bold  mt-2">Face Foam Wash</h2>
             <p className="font-light text-sm  mt-2">Face & Lip</p>
@@ -174,7 +206,7 @@ const ShopSecProduct = () => {
           New
         </p> */}
           <Link
-            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer"
+            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer hover:bg-blue-700"
             to="/Cart"
           >
             Add To Cart
@@ -182,7 +214,11 @@ const ShopSecProduct = () => {
         </div>
         {/* ninth/////////////////////////////// */}
         <div className="bg-LightGrey relative pb-5 drop-shadow-xl ">
-          <img className="w-60" src="/prodimg2/Images(4).png" alt="" />
+          <img
+            className="w-60 hover:w-64  hover:rounded-lg"
+            src="/prodimg2/Images(4).png"
+            alt=""
+          />
           <div className="ml-5">
             <h2 className="font-bold  mt-2">Under Eye Cream</h2>
             <p className="font-light text-sm  mt-2">Face & Lip</p>
@@ -198,7 +234,7 @@ const ShopSecProduct = () => {
           New
         </p> */}
           <Link
-            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer"
+            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer hover:bg-blue-700"
             to="/Cart"
           >
             Add To Cart
@@ -206,7 +242,11 @@ const ShopSecProduct = () => {
         </div>
         {/* tenth////////////////////////////////// */}
         <div className="bg-LightGrey relative pb-5 drop-shadow-xl ">
-          <img className="w-60" src="/prodimg2/image 1(12).png" alt="" />
+          <img
+            className="w-64 hover:w-72  hover:rounded-lg"
+            src="/prodimg2/image 1(12).png"
+            alt=""
+          />
           <div className="ml-5">
             <h2 className="font-bold  mt-2">Hair Growth Tonic</h2>
             <p className="font-light text-sm  mt-2">Hair Carep</p>
@@ -218,7 +258,7 @@ const ShopSecProduct = () => {
           New
         </p> */}
           <Link
-            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer"
+            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer hover:bg-blue-700"
             to="/Cart"
           >
             Add To Cart
@@ -226,7 +266,11 @@ const ShopSecProduct = () => {
         </div>
         {/* eleventh///////////////////////////// */}
         <div className="bg-LightGrey relative pb-5 drop-shadow-xl ">
-          <img className="w-60" src="/prodimg2/image 1(13).png" alt="" />
+          <img
+            className="w-60 hover:w-64  hover:rounded-lg"
+            src="/prodimg2/image 1(13).png"
+            alt=""
+          />
           <div className="ml-5">
             <h2 className="font-bold  mt-2">Hand Wash</h2>
             <p className="font-light text-sm  mt-2">Bath & Body</p>
@@ -242,7 +286,7 @@ const ShopSecProduct = () => {
           New
         </p> */}
           <Link
-            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer"
+            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer hover:bg-blue-700"
             to="/Cart"
           >
             Add To Cart
@@ -250,7 +294,11 @@ const ShopSecProduct = () => {
         </div>
         {/* twelvth////////////////////////////////// */}
         <div className="bg-LightGrey relative pb-5 drop-shadow-xl ">
-          <img className="w-60" src="/prodimg2/image 1(14).png" alt="" />
+          <img
+            className="w-64 hover:w-72  hover:rounded-lg"
+            src="/prodimg2/image 1(14).png"
+            alt=""
+          />
           <div className="ml-5">
             <h2 className="font-bold  mt-2">Face Foam Wash</h2>
             <p className="font-light text-sm  mt-2">Face & Lip</p>
@@ -265,7 +313,7 @@ const ShopSecProduct = () => {
           New
         </p> */}
           <Link
-            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer"
+            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer hover:bg-blue-700"
             to="/Cart"
           >
             Add To Cart
@@ -273,7 +321,11 @@ const ShopSecProduct = () => {
         </div>
         {/* thirthent////////////////////////// */}
         <div className="bg-LightGrey relative pb-5 drop-shadow-xl ">
-          <img className="w-60" src="/prodimg2/Images(5).png" alt="" />
+          <img
+            className="w-60 hover:w-64  hover:rounded-lg"
+            src="/prodimg2/Images(5).png"
+            alt=""
+          />
           <div className="ml-5">
             <h2 className="font-bold  mt-2">Lip Mask</h2>
             <p className="font-light text-sm  mt-2">Face & Lip Care</p>
@@ -289,7 +341,7 @@ const ShopSecProduct = () => {
           New
         </p> */}
           <Link
-            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer"
+            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer hover:bg-blue-700"
             to="/Cart"
           >
             Add To Cart
@@ -298,7 +350,11 @@ const ShopSecProduct = () => {
         {/* fourtrnth//////////////////////////// */}
 
         <div className="bg-LightGrey relative pb-5 drop-shadow-xl ">
-          <img className="w-60" src="/prodimg2/image 1(15).png" alt="" />
+          <img
+            className="w-60 hover:w-64  hover:rounded-lg"
+            src="/prodimg2/image 1(15).png"
+            alt=""
+          />
           <div className="ml-5">
             <h2 className="font-bold  mt-2">Nude Lipgloss</h2>
             <p className="font-light text-sm  mt-2">Face & Lip</p>
@@ -311,7 +367,7 @@ const ShopSecProduct = () => {
           New
         </p> */}
           <Link
-            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer"
+            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer hover:bg-blue-700"
             to="/Cart"
           >
             Add To Cart
@@ -319,7 +375,11 @@ const ShopSecProduct = () => {
         </div>
         {/* fiftnent//////////////////////////////// */}
         <div className="bg-LightGrey relative pb-5 drop-shadow-xl ">
-          <img className="w-60" src="/prodimg2/image 1(16).png" alt="" />
+          <img
+            className="w-60 hover:w-64  hover:rounded-lg"
+            src="/prodimg2/image 1(16).png"
+            alt=""
+          />
           <div className="ml-5">
             <h2 className="font-bold  mt-2">Body Glitter</h2>
             <p className="font-light text-sm  mt-2">Bath & Body</p>
@@ -335,7 +395,7 @@ const ShopSecProduct = () => {
           New
         </p> */}
           <Link
-            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer"
+            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer hover:bg-blue-700"
             to="/Cart"
           >
             Add To Cart
@@ -343,7 +403,11 @@ const ShopSecProduct = () => {
         </div>
         {/* sixtenth/////////////////////////////// */}
         <div className="bg-LightGrey relative pb-5 drop-shadow-xl ">
-          <img className="w-60" src="/prodimg2/image 1(17).png" alt="" />
+          <img
+            className="w-64 hover:w-72  hover:rounded-lg "
+            src="/prodimg2/image 1(17).png"
+            alt=""
+          />
           <div className="ml-5">
             <h2 className="font-bold  mt-2">Silver Lining Lipgloss</h2>
             <p className="font-light text-sm  mt-2">Face & Lip Care</p>
@@ -355,7 +419,7 @@ const ShopSecProduct = () => {
           New
         </p> */}
           <Link
-            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer"
+            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer hover:bg-blue-700"
             to="/Cart"
           >
             Add To Cart
@@ -364,15 +428,17 @@ const ShopSecProduct = () => {
       </main>
       <div className="flex justify-center items-center gap-10 mt-10">
         <Link
-          className="bg-primaryBlue w-14 h-14 rounded-lg text-white"
+          className="bg-primaryBlue w-14 h-14 hover:rounded-lg text-white  flex justify-center items-center"
           to="/ShopProduct"
         >
           1
         </Link>
-
-        <button className="bg-gray-500 text-black w-14 h-14 rounded-lg">
-          2
-        </button>
+        <Link
+          className="bg-gray-500 text-black w-14 h-14 hover:rounded-lg flex justify-center items-center"
+          to="/ShopProduct"
+        >
+          1
+        </Link>
       </div>
       <article className="bg-lightPink flex justify-between px-10 py-20 mt-20 flex-col md:flex-row flex-wrap">
         <div className="flex flex-col md:flex-row md:justify-start justify-center items-center gap-2 text-sm text-Greydarker">

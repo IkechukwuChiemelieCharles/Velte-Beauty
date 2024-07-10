@@ -108,10 +108,10 @@ const ShopList = () => {
       </div>
 
       <Link
-        className="border-2 border-primaryBlue border-solid px-16 py-2 my-10"
+        className="border-2 border-primaryBlue border-solid px-16 py-2 my-10 "
         to="/Shop"
       >
-        Shop
+        Shops
       </Link>
     </div>
   );

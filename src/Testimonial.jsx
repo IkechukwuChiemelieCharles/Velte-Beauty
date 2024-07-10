@@ -11,7 +11,7 @@ const Testimonial = () => {
       </p>
 
       <div className="flex flex-wrap gap-10 justify-center mt-5">
-        <div className="flex flex-col justify-center w-72 p-5 bg-white gap-1">
+        <div className="flex flex-col justify-center w-72 p-5 bg-white gap-1 hover:bg-black hover:text-white hover:rounded-lg">
           <img
             className="w-20 rounded-full self-center"
             src="./AI Image 5.png"
@@ -29,7 +29,7 @@ const Testimonial = () => {
             <img className="w-20 " src="./Reviews.png" alt="" />
           </div>
         </div>
-        <div className="flex flex-col justify-center w-72 p-5 bg-white gap-1">
+        <div className="flex flex-col justify-center w-72 p-5 bg-white gap-1 hover:bg-black hover:text-white hover:rounded-lg">
           <img
             className="w-20 rounded-full self-center"
             src="./IMG2/AI Image 5.png"
@@ -47,7 +47,7 @@ const Testimonial = () => {
             <img className="w-20 " src="./Reviews.png" alt="" />
           </div>
         </div>
-        <div className="flex flex-col justify-center w-72 p-5 bg-white gap-1">
+        <div className="flex flex-col justify-center w-72 p-5 bg-white gap-1 hover:bg-black hover:text-white hover:rounded-lg">
           <img
             className="w-20 rounded-full self-center"
             src="./IMG2/Mask group.png"
@@ -65,7 +65,7 @@ const Testimonial = () => {
             <img className="w-20 " src="./Reviews.png" alt="" />
           </div>
         </div>
-        <div className="flex flex-col justify-center w-72 p-5 bg-white gap-1">
+        <div className="flex flex-col justify-center w-72 p-5 bg-white gap-1 hover:bg-black hover:text-white hover:rounded-lg">
           <img
             className="w-20 rounded-full self-center"
             src="./IMG2/Mask group-3.png"
@@ -83,7 +83,7 @@ const Testimonial = () => {
             <img className="w-20 " src="./Reviews.png" alt="" />
           </div>
         </div>
-        <div className="flex flex-col justify-center w-72 p-5 bg-white gap-1">
+        <div className="flex flex-col justify-center w-72 p-5 bg-white gap-1 hover:bg-black hover:text-white hover:rounded-lg">
           <img
             className="w-20 rounded-full self-center"
             src="./IMG2/Mask group-2.png"
@@ -101,7 +101,7 @@ const Testimonial = () => {
             <img className="w-20 " src="./Reviews.png" alt="" />
           </div>
         </div>
-        <div className="flex flex-col justify-center w-72 p-5 bg-white gap-1">
+        <div className="flex flex-col justify-center w-72 p-5 bg-white gap-1 hover:bg-black hover:text-white hover:rounded-lg">
           <img
             className="w-20 rounded-full self-center"
             src="./IMG2/Mask group-1.png"
