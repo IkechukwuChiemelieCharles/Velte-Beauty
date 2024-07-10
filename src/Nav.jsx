@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Nav = () => {
   return (
-    <nav className="bg-primaryBlue flex lg:justify-around items-center w-full  justify-between ">
+    <nav className="bg-primaryBlue flex lg:justify-around items-center w-full  justify-between pr-2">
       <div className="flex justify-start items-center ">
         <img className="w-20" src="./Velte logo.png" alt="" />
         <p className="text-nowrap text-xs md:text-2xl text-white font-bold">
