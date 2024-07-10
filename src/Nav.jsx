@@ -3,15 +3,15 @@ import { Link } from "react-router-dom";
 
 const Nav = () => {
   return (
-    <nav className="bg-primaryBlue flex lg:justify-around items-center w-full  justify-around ">
-      <div className="flex justify-center items-center">
+    <nav className="bg-primaryBlue flex lg:justify-around items-center w-full  justify-between ">
+      <div className="flex justify-start items-center ">
         <img className="w-20" src="./Velte logo.png" alt="" />
         <p className="text-nowrap text-xs md:text-2xl text-white font-bold">
           Velte Beauty
         </p>
       </div>
       <ul
-        className=" gap-10 flex  xl:gap-20 text-xs text-white font-bold
+        className=" gap-2 lg:gap-10 flex  xl:gap-20 text-xs text-white font-bold
       "
       >
         <li>
