@@ -23,9 +23,6 @@ const Footer = () => {
           <Link className="hover:text-primaryBlue" to="/Cart">
             Cart
           </Link>
-          <Link className="hover:text-primaryBlue" to="/Contact">
-            Contact
-          </Link>
         </ul>
 
         <div className="flex flex-col  gap-5">
