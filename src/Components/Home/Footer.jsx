@@ -4,16 +4,12 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer className="bg-Greydarker w-full flex flex-col justify-center ">
-      <div className="  flex flex-wrap gap-10 md:gap-5 text-white justify-center md:justify-around p-10">
+      <div className="  flex flex-col gap-10 md:gap-5 text-white justify-center md:justify-around p-10 sm:flex-row">
         <div className="flex  gap-10 justify-center items-start">
           <img className="-mt-5" src="./prodimg2/Velte logo.png" alt="" />
-          <h1 className="font-bold text-xl ">Velte Beauty</h1>
-          {/* <p className="text-sm w-56">
-        
-        </p> */}
         </div>
-        <ul className="flex flex-col gap-5">
-          <li className="mb-5 text-bold">Links</li>
+        <ul className="flex flex-col gap-5 text-center sm:text-start">
+          <li className="mb-2 text-bold text-lg text-Green">Links</li>
           <Link className="hover:text-primaryBlue" to="/">
             Home
           </Link>
@@ -25,18 +21,18 @@ const Footer = () => {
           </Link>
         </ul>
 
-        <div className="flex flex-col  gap-5">
-          <p>Contact</p>
+        <div className="flex flex-col  gap-5 justify-center items-center sm:items-start">
+          <p className="text-lg text-Green">Contact</p>
           <div className="flex flex-col gap-5">
-            <div className="flex justify-start items-center gap-5">
+            <div className="flex justify-center items-center gap-5 sm:justify-start">
               <img src="/icons/Vector(10).png" alt="" />
               <p>090123456789</p>
             </div>
-            <div className="flex justify-start items-center gap-5">
+            <div className="flex justify-center items-center gap-5 sm:justify-start">
               <img src="/icons/Vector(12).png" alt="" />
               <p>veltebeauty@gmail.com</p>
             </div>
-            <div className="flex justify-start items-center gap-5">
+            <div className="flex justify-center items-center gap-5 sm:justify-start">
               <img src="/icons/Vector(11).png" alt="" />
               <p className="w-52">
                 Unity Quarters, Orita Obele Estate, Road Block, Akure, Ondo
@@ -65,8 +61,10 @@ const Footer = () => {
         <img src="./prodimg2/Vector.png" alt="" />
         <img src="./prodimg2/Vector-1.png" alt="" />
       </div>
-      <hr className="w-40 md:w-140 border-2 border-solid border-white self-center mt-5 mb-5" />
-      <p className=" text-white">2024 Velte Beauty. All rights reserved</p>
+      <hr className="w-40 sm:w-80 md:w-140 border-2 border-solid border-white self-center mt-5 mb-5" />
+      <p className=" text-white text-center">
+        2024 Velte Beauty. All rights reserved
+      </p>
     </footer>
   );
 };

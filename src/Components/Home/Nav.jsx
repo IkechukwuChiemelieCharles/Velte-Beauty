@@ -3,13 +3,8 @@ import { Link } from "react-router-dom";
 
 const Nav = () => {
   return (
-    <nav className="bg-primaryBlue flex lg:justify-around items-center w-full  justify-between pr-2">
-      <div className="flex justify-start items-center ">
-        <img className="w-20" src="./Velte logo.png" alt="" />
-        <p className="text-nowrap text-xs md:text-2xl text-white font-bold">
-          Velte Beauty
-        </p>
-      </div>
+    <nav className="bg-primaryBlue flex lg:justify-around items-center w-full  justify-between pr-5  sm:px-10 md:px-20">
+      <img className="w-20" src="./Velte logo.png" alt="" />
       <ul
         className=" gap-2 sm:gap-10 lg:gap-10 flex  xl:gap-20 text-xs text-white font-bold
       "
@@ -22,6 +17,11 @@ const Nav = () => {
         <li>
           <Link to="/Shop" className="hover:text-Green">
             Shop
+          </Link>
+        </li>
+        <li>
+          <Link to="/Contact" className="hover:text-Green">
+            Contact
           </Link>
         </li>
       </ul>

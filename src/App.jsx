@@ -1,17 +1,18 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import "./App.css";
-import Home from "./Home";
-import Nav from "./Nav";
-import Footer from "./Footer";
-import Shop from "./Shop";
-import ShopHeader from "./ShopHeader";
-import ShopProduct from "./ShopProduct";
-import ShopSecProdcut from "./ShopSecProdcut";
-import Cart from "./Cart";
-import Information from "./Information";
-import Payment from "./Payment";
-import Success from "./Success";
+import Home from "./Components/Home/Home";
+import Nav from "./Components/Home/Nav";
+import Footer from "./Components/Home/Footer";
+import Shop from "./Components/Shop/Shop";
+import ShopHeader from "./Components/Shop/ShopHeader";
+import ShopProduct from "./Components/Shop/ShopProduct";
+import ShopSecProdcut from "./Components/Shop/ShopSecProdcut";
+import Cart from "./Components/CheckOut/Cart";
+import Information from "./Components/CheckOut/Information";
+import Payment from "./Components/CheckOut/Payment";
+import Success from "./Components/CheckOut/Success";
+import Contact from "./Components/Contact/Contact";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/shop" element={<ShopHeader />} />
+          <Route path="/contact" element={<Contact />} />
 
           <Route path="/ShopProduct" element={<Shop />} />
           <Route path="/ShopSecProdcut" element={<ShopSecProdcut />} />
