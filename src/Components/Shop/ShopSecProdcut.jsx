@@ -428,19 +428,19 @@ const ShopSecProduct = () => {
       </main>
       <div className="flex justify-center items-center gap-10 mt-10">
         <Link
-          className="bg-primaryBlue w-14 h-14 hover:rounded-lg text-white  flex justify-center items-center"
+          className="bg-primaryBlue w-14 h-14 border-primaryBlue border-2 border-solid hover:rounded-lg  hover:bg-white hover:text-primaryBlue text-white flex justify-center items-center"
           to="/ShopProduct"
         >
           1
         </Link>
         <Link
-          className="bg-gray-500 text-black w-14 h-14 hover:rounded-lg flex justify-center items-center"
-          to="/ShopProduct"
+          className="bg-white-500 text-black w-14 h-14  flex justify-center items-center  border-primaryBlue border-2 border-solid  text-primaryBlue  hover:rounded-lg hover:bg-primaryBlue hover:text-white"
+          to="/ShopSecProdcut"
         >
-          1
+          2
         </Link>
       </div>
-      <article className="bg-lightPink flex justify-between px-10 py-20 mt-20 flex-col md:flex-row flex-wrap">
+      <article className="bg-lightPink flex justify-between px-10 py-20 mt-20 flex-col md:flex-row md:px-5 md:gap lg:px-20">
         <div className="flex flex-col md:flex-row md:justify-start justify-center items-center gap-2 text-sm text-Greydarker">
           <img className="w-10" src="./Group.png" alt="" />
           <div>

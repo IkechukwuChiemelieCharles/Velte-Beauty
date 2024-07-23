@@ -7,7 +7,7 @@ const Contact = () => {
       <header className="relative  w-full  ">
         <img className="w-full" src="./IMG1/Rectangle 1.png" alt="" />
 
-        <div className="  md:top-32 md:left-128 flex jutify-center items-center gap-2 text-Greydarker flex-col -mt-16 md:-mt-32 mb-32 ">
+        <div className="  md:top-32 md:left-128 flex jutify-center items-center gap-2 text-Greydarker flex-col -mt-16 md:-mt-32 mb-10 md:mb-32 ">
           <h1 className="text-md  top-5 left-32 md:top-20 md:left-130 md:text-2xl font-bold text-Greydarker">
             Contact
           </h1>
