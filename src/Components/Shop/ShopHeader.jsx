@@ -6,8 +6,8 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 const ShopHeader = () => {
   return (
     <div>
-      <header className="relative  ">
-        <div className=" ">
+      <header className="relative top-10  ">
+        <div className="">
           <img
             className="w-full 
           

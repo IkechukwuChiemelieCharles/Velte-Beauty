@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 
 const Cart = () => {
   return (
-    <div className="bg-lightPink overflow-hidden">
-      <div>
-        <img className="w-full" src="./IMG1/Rectangle 1.png" alt="" />
-        <div className="  md:top-32 md:left-128 flex justify-center items-center gap-2 text-Greydarker flex-col -mt-16 md:-mt-32 mb-16 ">
+    <div className="bg-lightPink  ">
+      <div className="">
+        <img className="w-full h-28" src="./IMG1/Rectangle 1.png" alt="" />
+        <div className="  md:top-32 md:left-128 flex justify-center items-center gap-2 text-Greydarker flex-col -mt-16 md:-mt-32 mb-5 ">
           <h1 className="text-md  top-5 left-32 md:top-20 md:left-130 md:text-2xl font-bold text-Greydarker">
             Cart
           </h1>
@@ -24,16 +24,16 @@ const Cart = () => {
           </div>
         </div>
       </div>
-      <div className="flex gap-5  items-center p-5 bg-lightPink flex-wrap">
+      <div className="flex gap-5  items-center py-5 bg-lightPink flex-wrap">
         <p className="text-xs md:text-sm font-bold text-primaryBlue">Cart</p>
         <img className="w-2 h-2  " src="./icons/Vector(2).png" alt="" />
         <p className="text-xs md:text-sm text-Greydarker">Information</p>
         <p className="text-xs md:text-sm text-Greydarker">Payment & Shipping</p>
       </div>
 
-      <div className="flex gap-20 flex-col md:flex-row justify-center items-center md:items-start ">
-        <div>
-          <div className="flex flex-col justify-center items-start p-5 gap-2 bg-white flex-wrap w-72 md:w-140 ml-5 mb-5">
+      <div className="flex gap-20 flex-col md:flex-row justify-center items-center md:items-start  ">
+        <div className="p-0 ">
+          <div className="flex flex-col justify-center items-start p-5 gap-2 bg-white flex-wrap w-72 md:w-140  mb-5">
             <h1 className="text-primaryBlue text-2xl font-bold ">
               Shopping Cart
             </h1>
@@ -41,7 +41,7 @@ const Cart = () => {
               Deselect All Items
             </p>
           </div>
-          <div className="bg-white md:bg-white w-72 md:w-140 ml-5 flex  flex-col md:flex-wrap ">
+          <div className="bg-white md:bg-white w-72 md:w-140  flex  flex-col md:flex-wrap ">
             <div className="mt-5  p-5 flex  items-center gap-2 flex-wrap">
               <p>Cart (1)</p>
               <img className="w-2 h-2  " src="./icons/Vector(2).png" alt="" />
@@ -93,21 +93,23 @@ const Cart = () => {
           </div>
         </div>
 
-        <div className="flex flex-col  flex-wrap px-5">
-          <div className="bg-white py-5 px-5  ">
+        <div className="flex flex-col  flex-wrap  w-72  text-xs ">
+          <div className="bg-white py-5 px-10  w-72 ">
             <h3 className="text-Greydarker text-center border-b-2 border-b-Greydarker border-b-solid font-bold py-3">
               Order Summary
             </h3>
-            <div className="flex border-b-2  border-b-Greydarker border-b-solid gap-32 justify-center text-Greydarker mt-10 pb-5">
-              <ul className="flex flex-col gap-2">
-                <li className="font-bold text-lg ">Items Total (2)</li>
+            <div className="flex  border-b-2  border-b-Greydarker border-b-solid gap-32 justify-center text-Greydarker mt-10 pb-5   ">
+              <ul className="flex flex-col gap-2 ">
+                <li className="text-xs font-bold sm:text-lg text-nowrap ">
+                  Items Total (2)
+                </li>
                 <li>Discount</li>
                 <li className="font-bold">Subtotal</li>
                 <li className="font-bold">Shipping</li>
                 <li>Duties & Taxes</li>
               </ul>
               <ul className="flex flex-col gap-2">
-                <li className="font-bold text-lg">₦10,000.00</li>
+                <li className="font-bold text-xs">₦10,000.00</li>
                 <li>₦00,00</li>
                 <li className="font-bold">₦10,000.00</li>
                 <li className="font-bold">₦1,000.00</li>
@@ -127,19 +129,19 @@ const Cart = () => {
               </Link>
             </div>
           </div>
-          <div className="flex flex-col justify-center items-center mt-10 bg-white py-5">
+          <div className="flex flex-col justify-center items-center mt-10 bg-white py-5 w-72 px-10 ">
             <p>Payment Method</p>
             <div className="flex gap-5 h-6 mt-5">
               <img src="./icons/Mastercard.png" alt="" />
               <img src="./icons/visa-logo.png" alt="" />
               <img src="./icons/Vector(9).png" alt="" />
             </div>
-            <div className="flex flex-col items-start justify-center  p-5 gap-2">
-              <div className="flex gap-5">
+            <div className="flex flex-col items-start justify-center  py-5 gap-2 ">
+              <div className="flex gap-5 justify-center mt-5 w-52 ">
                 <img src="./icons/shield-check.png" alt="" />
-                <p className="text-Green">Buyer Protection</p>
+                <p className="text-Green text-wrap ">Buyer Protection</p>
               </div>
-              <p className="w-80 text-Greydarker">
+              <p className=" text-Greydarker text-center ">
                 Get full refund if the item is not as described or if is not
                 delivered
               </p>

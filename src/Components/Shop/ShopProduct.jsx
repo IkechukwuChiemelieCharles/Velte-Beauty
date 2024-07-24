@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 const ShopProduct = () => {
   return (
-    <div className=" bg-white">
+    <div className=" bg-white mt-20">
       <main className="flex flex-wrap gap-14 p-5 justify-center items-center">
         <div className="bg-LightGrey relative pb-5 drop-shadow-xl hover:rounded-lg">
           <img
@@ -25,7 +25,7 @@ const ShopProduct = () => {
           </p>
 
           <Link
-            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer hover:bg-blue-700 "
+            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer hover:bg-primaryBlue"
             to="/Cart"
           >
             Add To Cart
@@ -47,7 +47,7 @@ const ShopProduct = () => {
           </div>
 
           <Link
-            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer hover:bg-blue-700"
+            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer hover:bg-primaryBlue"
             to="/Cart"
           >
             Add To Cart
@@ -72,7 +72,7 @@ const ShopProduct = () => {
           </p>
 
           <Link
-            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer hover:bg-blue-700"
+            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer hover:bg-primaryBlue"
             to="/Cart"
           >
             Add To Cart
@@ -93,7 +93,7 @@ const ShopProduct = () => {
           </div>
 
           <Link
-            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer hover:bg-blue-700"
+            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer hover:bg-primaryBlue"
             to="/Cart"
           >
             Add To Cart
@@ -118,7 +118,7 @@ const ShopProduct = () => {
           </p>
 
           <Link
-            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer hover:bg-blue-700"
+            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer hover:bg-primaryBlue"
             to="/Cart"
           >
             Add To Cart
@@ -142,7 +142,7 @@ const ShopProduct = () => {
           New
         </p> */}
           <Link
-            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer hover:bg-blue-700"
+            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer hover:bg-primaryBlue"
             to="/Cart"
           >
             Add To Cart
@@ -167,7 +167,7 @@ const ShopProduct = () => {
           </p>
 
           <Link
-            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer hover:bg-blue-700"
+            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer hover:bg-primaryBlue"
             to="/Cart"
           >
             Add To Cart
@@ -189,7 +189,7 @@ const ShopProduct = () => {
           </div>
 
           <Link
-            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer hover:bg-blue-700"
+            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer hover:bg-primaryBlue"
             to="/Cart"
           >
             Add To Cart
@@ -216,7 +216,7 @@ const ShopProduct = () => {
           </p>
 
           <Link
-            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer hover:bg-blue-700"
+            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer hover:bg-primaryBlue"
             to="/Cart"
           >
             Add To Cart
@@ -237,7 +237,7 @@ const ShopProduct = () => {
           </div>
 
           <Link
-            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer hover:bg-blue-700"
+            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer hover:bg-primaryBlue"
             to="/Cart"
           >
             Add To Cart
@@ -262,7 +262,7 @@ const ShopProduct = () => {
           </p>
 
           <Link
-            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer hover:bg-blue-700"
+            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer hover:bg-primaryBlue"
             to="/Cart"
           >
             Add To Cart
@@ -289,7 +289,7 @@ const ShopProduct = () => {
           New
         </p> */}
           <Link
-            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer hover:bg-blue-700"
+            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer hover:bg-primaryBlue"
             to="/Cart"
           >
             Add To Cart
@@ -314,7 +314,7 @@ const ShopProduct = () => {
           </p>
 
           <Link
-            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer hover:bg-blue-700"
+            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer hover:bg-primaryBlue"
             to="/Cart"
           >
             Add To Cart
@@ -335,7 +335,7 @@ const ShopProduct = () => {
           </div>
 
           <Link
-            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer hover:bg-blue-700"
+            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer hover:bg-primaryBlue"
             to="/Cart"
           >
             Add To Cart
@@ -363,7 +363,7 @@ const ShopProduct = () => {
           New
         </p> */}
           <Link
-            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer hover:bg-blue-700"
+            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer hover:bg-primaryBlue"
             to="/Cart"
           >
             Add To Cart
@@ -384,7 +384,7 @@ const ShopProduct = () => {
           </div>
 
           <Link
-            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer hover:bg-blue-700"
+            className="px-3 py-2 bg-lightBlue text-white w-28 text-nowrap rounded-lg absolute right-3 bottom-5 border-black border-solid border-2 font-bold cursor-pointer hover:bg-primaryBlue"
             to="/Cart"
           >
             Add To Cart
