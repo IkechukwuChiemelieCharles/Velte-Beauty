@@ -16,12 +16,13 @@ export default {
         lightBlue: "rgba(52, 152, 219, 0.25)",
       },
       spacing: {
-        128: "32rem",
         120: "26rem",
+        124: "32rem",
+        128: "36rem",
+        130: "37rem",
         140: "42rem",
         142: "46rem",
-        130: "37rem",
-        128: "36rem",
+        150: "50rem",
       },
       fontFamily: {
         Karla: ["Karla", "sans-serif"],

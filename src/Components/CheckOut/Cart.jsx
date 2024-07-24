@@ -3,10 +3,14 @@ import { Link } from "react-router-dom";
 
 const Cart = () => {
   return (
-    <div className="bg-lightPink  ">
+    <div className="bg-lightPink  flex flex-col justify-center items-center overflow-hidden">
       <div className="">
-        <img className="w-full h-28" src="./IMG1/Rectangle 1.png" alt="" />
-        <div className="  md:top-32 md:left-128 flex justify-center items-center gap-2 text-Greydarker flex-col -mt-16 md:-mt-32 mb-5 ">
+        <img
+          className="w-full h-28 sm:h-40 md:h-56 lg:h-64 xl:h-80 2xl:h-96"
+          src="./IMG1/Rectangle 1.png"
+          alt=""
+        />
+        <div className="  md:top-32 md:left-128 flex justify-center items-center gap-2 text-Greydarker flex-col -mt-16 sm:-mt-20 md:-mt-32 mb-5 2xl:-mt-44">
           <h1 className="text-md  top-5 left-32 md:top-20 md:left-130 md:text-2xl font-bold text-Greydarker">
             Cart
           </h1>
@@ -24,16 +28,16 @@ const Cart = () => {
           </div>
         </div>
       </div>
-      <div className="flex gap-5  items-center py-5 bg-lightPink flex-wrap">
+      <div className="flex gap-5  items-center py-5 bg-lightPink flex-wrap self-start ml-5 sm:ml-8 sm:self-start mt-5 md:mt-16 md:ml-12 lg:ml-14 xl:mt-24">
         <p className="text-xs md:text-sm font-bold text-primaryBlue">Cart</p>
         <img className="w-2 h-2  " src="./icons/Vector(2).png" alt="" />
         <p className="text-xs md:text-sm text-Greydarker">Information</p>
         <p className="text-xs md:text-sm text-Greydarker">Payment & Shipping</p>
       </div>
 
-      <div className="flex gap-20 flex-col md:flex-row justify-center items-center md:items-start  ">
-        <div className="p-0 ">
-          <div className="flex flex-col justify-center items-start p-5 gap-2 bg-white flex-wrap w-72 md:w-140  mb-5">
+      <div className="flex gap-20 flex-col lg:flex-row justify-center items-center md:items-start lg:gap-10   xl:justify-between xl:w-full xl:px-10 2xl:mt-10">
+        <div className="p-0  ">
+          <div className="flex flex-col justify-center items-start p-5 gap-2 bg-white flex-wrap w-72 sm:w-128  md:w-140  mb-5 lg:w-128 xl:w-142 2xl:w-150">
             <h1 className="text-primaryBlue text-2xl font-bold ">
               Shopping Cart
             </h1>
@@ -41,26 +45,30 @@ const Cart = () => {
               Deselect All Items
             </p>
           </div>
-          <div className="bg-white md:bg-white w-72 md:w-140  flex  flex-col md:flex-wrap ">
+          <div className="bg-white md:bg-white w-72 sm:w-128 md:w-140  flex  flex-col md:flex-wrap lg:w-128 xl:w-142 xl:h-128 xl:py-20 2xl:w-150">
             <div className="mt-5  p-5 flex  items-center gap-2 flex-wrap">
               <p>Cart (1)</p>
               <img className="w-2 h-2  " src="./icons/Vector(2).png" alt="" />
             </div>
             <div className="flex flex-col md:flex-wrap bg-white">
-              <div className="border-2 border-solid border-Greydarker flex justify-around p-2 md:flex-wrap text-xs md:text-lg">
-                <p>Product</p>
-                <p>Name Product</p>
+              <div
+                className="border-b-2 border-b-solid border-b-Greydarker
+              border-t-2 border-t-solid border-t-Greydarker 
+              flex justify-between px-5 sm:justify-end sm:gap-20 sm:px-14 py-5 md:flex-wrap text-xs md:text-lg "
+              >
+                <p className="text-center">Product</p>
+                <p className="text-center"> Name</p>
                 <p>Quantity</p>
                 <p>Price</p>
               </div>
-              <div className="flex  items-center md:justify-start md:items-start md:p-5 p-0 md:gap-5 gap-3 bg-white  text-xs">
+              <div className="flex  items-center sm:justify-between sm:py-5 sm:px-5  md:justify-between md:items-center md:p-5 p-0 lg:gap-5 gap-3 bg-white  text-xs">
                 <input className="self-center" type="checkbox" />
                 <img
-                  className="w-10 md:w-36 rounded-sm"
+                  className="w-10 sm:w-20 md:w-28 rounded-sm"
                   src="image 1(1).png"
                   alt=""
                 />
-                <div className="flex flex-col gap-1 flex-wrap">
+                <div className="flex flex-col gap-1 flex-wrap ">
                   <h3 className="text-xs md:text-xl font-bold">Hair Shampoo</h3>
                   <p className="text-xs md:text-sm">Hair Care</p>
                   <p className="text-primaryBlue font-bold s">In Stock</p>
@@ -86,21 +94,24 @@ const Cart = () => {
                 <p className="nd:ml-14 font-bold">₦ 5,000.00</p>
               </div>
             </div>
-            <div className="flex justify-end gap-14 px-5 py-2 items-center border-2 border-solid border-Greydarker flex-wrap">
-              <p className="text-sm">Subtotal (1 items)</p>
-              <h2 className="font-bold text-lg">₦ 10,000.00</h2>
+            <div
+              className="flex justify-end gap-14 px-5 py-5 items-center border-b-2 border-b-solid border-b-Greydarker
+              border-t-2 border-t-solid border-t-Greydarker  flex-wrap "
+            >
+              <p className="text-xs">Subtotal (1 items)</p>
+              <h2 className="font-bold text-xs">₦ 10,000.00</h2>
             </div>
           </div>
         </div>
 
-        <div className="flex flex-col  flex-wrap  w-72  text-xs ">
-          <div className="bg-white py-5 px-10  w-72 ">
-            <h3 className="text-Greydarker text-center border-b-2 border-b-Greydarker border-b-solid font-bold py-3">
+        <div className="flex flex-col  flex-wrap  w-72 sm:w-128  text-xs sm:justify-center sm:items-center  lg:w-128 ">
+          <div className="bg-white py-5 px-10  w-72 sm:w-128 md:w-140 lg:w-80 xl:w-96 xl:h-96 2xl:w-130">
+            <h3 className="text-Greydarker text-center border-b-2 border-b-Greydarker border-b-solid font-bold py-3 ">
               Order Summary
             </h3>
             <div className="flex  border-b-2  border-b-Greydarker border-b-solid gap-32 justify-center text-Greydarker mt-10 pb-5   ">
               <ul className="flex flex-col gap-2 ">
-                <li className="text-xs font-bold sm:text-lg text-nowrap ">
+                <li className="text-xs font-bold sm:text-xs text-nowrap ">
                   Items Total (2)
                 </li>
                 <li>Discount</li>
@@ -129,7 +140,7 @@ const Cart = () => {
               </Link>
             </div>
           </div>
-          <div className="flex flex-col justify-center items-center mt-10 bg-white py-5 w-72 px-10 ">
+          <div className="flex flex-col justify-center items-center mt-10 bg-white py-5 w-72 px-10 sm:w-128 md:w-140 lg:w-80 xl:w-96 xl:h-72 xl:mt-7 2xl:w-130">
             <p>Payment Method</p>
             <div className="flex gap-5 h-6 mt-5">
               <img src="./icons/Mastercard.png" alt="" />
@@ -137,7 +148,7 @@ const Cart = () => {
               <img src="./icons/Vector(9).png" alt="" />
             </div>
             <div className="flex flex-col items-start justify-center  py-5 gap-2 ">
-              <div className="flex gap-5 justify-center mt-5 w-52 ">
+              <div className="flex gap-5 justify-center mt-5 w-52 self-center ">
                 <img src="./icons/shield-check.png" alt="" />
                 <p className="text-Green text-wrap ">Buyer Protection</p>
               </div>
@@ -150,7 +161,7 @@ const Cart = () => {
         </div>
       </div>
 
-      <div className="flex flex-col justify-center items-center bg-white py-10 mt-10">
+      <div className="flex flex-col justify-center items-center bg-white py-10 mt-10 self-center ">
         <h1 className="text-xl font-semibold">Recommended Products</h1>
         <main className="flex flex-wrap gap-20 p-5 justify-center">
           <div className="bg-LightGrey relative pb-5 drop-shadow-xl ">
@@ -241,7 +252,7 @@ const Cart = () => {
         </main>
 
         <Link
-          className="border-2 border-solid border-primaryBlue text-primaryBlue bg-white px-8 py-2"
+          className="border-2 border-solid border-primaryBlue text-primaryBlue bg-white px-8 py-2 mt-10"
           to="/Shop"
         >
           Show More
